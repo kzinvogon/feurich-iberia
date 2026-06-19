@@ -1,11 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
   I18n.init();
+  preloadImages();
   initNav();
   initScrollReveal();
   initCustomCursor();
   initCounters();
   initMobileMenu();
 });
+
+function preloadImages() {
+  const base = document.querySelector('meta[name="base-path"]')?.content || '';
+  [
+    'images/piano-02.jpeg',
+    'images/piano-03.jpeg',
+    'images/piano-05.jpeg',
+    'images/piano-06.jpeg',
+    'images/piano-08.jpeg',
+    'images/piano-09.jpeg',
+    'images/piano-11.jpeg',
+    'images/piano-12.jpeg',
+    'images/piano-13.jpeg',
+    'images/piano-16.jpeg',
+  ].forEach(src => {
+    const img = new Image();
+    img.src = base + src;
+  });
+}
 
 function initNav() {
   const nav = document.getElementById('nav');
@@ -77,7 +97,7 @@ function initScrollReveal() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.05, rootMargin: '0px 0px 100px 0px' });
+  }, { threshold: 0.05, rootMargin: '0px 0px 300px 0px' });
   items.forEach(el => observer.observe(el));
 
   // Reveal elements already visible in viewport on load (prevents blank images)
