@@ -1,0 +1,220 @@
+{
+  "lang": "es",
+  "langLabel": "Español",
+  "nav": {
+    "home": "Inicio",
+    "collection": "Colección",
+    "luxury": "Ediciones de Lujo",
+    "selfPlaying": "Pianos Autotocantes",
+    "grandUprights": "Colas y Verticales",
+    "customDesign": "Diseño Personalizado",
+    "services": "Servicios",
+    "journey": "Nuestro Proceso",
+    "about": "Quiénes Somos",
+    "contact": "Contacto",
+    "bookConsultation": "Reservar Consulta"
+  },
+  "hero": {
+    "eyebrow": "Artesanía Vienesa · Pasión Ibérica",
+    "title": "Donde la Música\nEncuentra la Maestría",
+    "subtitle": "Representante exclusivo de Feurich para España y Portugal",
+    "cta": "Descubra la Colección",
+    "secondary": "Reservar una Consulta Privada"
+  },
+  "brandIntro": {
+    "eyebrow": "Fund. 1851 · Viena, Austria",
+    "title": "Un Instrumento. Un Legado.",
+    "text": "Desde 1851, Feurich ha encarnado la más alta tradición en la fabricación de pianos vieneses — cinco generaciones de maestros artesanos, cada uno avanzando en el arte sin abandonar su alma. Cada piano Feurich es una convergencia de precisión técnica y visión artística, construido para perdurar durante generaciones.",
+    "foundedYear": "1851",
+    "foundedLabel": "Fundado en Viena",
+    "generationsNum": "5",
+    "generationsLabel": "Generaciones de Maestría",
+    "finishesNum": "∞",
+    "finishesLabel": "Acabados Posibles"
+  },
+  "collection": {
+    "eyebrow": "La Colección",
+    "title": "Encuentre su Piano",
+    "subtitle": "Desde impresionantes ediciones de lujo hasta encargos totalmente personalizados, cada Feurich es una creación singular.",
+    "explore": "Explorar",
+    "luxury": {
+      "title": "Ediciones de Lujo",
+      "desc": "Incrustaciones de cristal Swarovski, pan de oro de 24k y acabados artísticos extraordinarios — pianos que trascienden el instrumento para convertirse en patrimonio."
+    },
+    "selfPlaying": {
+      "title": "Pianos Autotocantes",
+      "desc": "Una sinfonía a su disposición. Pianos Feurich con tecnología Pianoforce integrada que actúan con un realismo impresionante."
+    },
+    "grandUprights": {
+      "title": "Colas y Verticales",
+      "desc": "Desde el gran cola de concierto 218 Concert 1 hasta el íntimo Vienna V116 — instrumentos para cada espacio y ambición."
+    },
+    "customDesign": {
+      "title": "Diseño Personalizado",
+      "desc": "Encargue un piano tan único como usted. Cualquier color, cualquier material, cualquier visión — realizado por el atelier vienés de Feurich."
+    }
+  },
+  "featured": {
+    "eyebrow": "Modelo Emblema",
+    "title": "El Vienna V123",
+    "madeIn": "Fabricado en Austria",
+    "text": "El Feurich Modelo 123 Vienna no se construye simplemente — se compone. Con una mecánica Renner rediseñada, la tecnología de alta velocidad KAMM y martillos de fieltro Weickert-Special, este es el piano vertical vienés redefinido. Disponible en todos los colores del espectro RAL.",
+    "spec1": "Altura: 123 cm",
+    "spec2": "Mecánica: Renner con KAMM alta velocidad",
+    "spec3": "Martillos: Fieltro Weickert-Special",
+    "spec4": "Acabados: Todos los colores RAL disponibles",
+    "spec5": "Origen: Fabricado en Austria",
+    "cta": "Solicitar Este Modelo"
+  },
+  "selfPlayingSection": {
+    "eyebrow": "Tecnología Pianoforce",
+    "title": "El Piano que Toca Solo",
+    "text": "Integrado de forma invisible en el gabinete, el sistema autotocante Pianoforce transforma cualquier piano Feurich en un intérprete de concierto autónomo. Reproduzca desde una biblioteca seleccionada, grabe su propia interpretación, o simplemente deje que Beethoven llene la sala.",
+    "f1": "Integrado de forma invisible en el gabinete",
+    "f2": "Grabe, reproduzca y transmita interpretaciones",
+    "f3": "Compatibilidad total con MIDI y biblioteca de audio",
+    "f4": "Altavoces integrados para acompañamiento",
+    "f5": "Compatible con todos los modelos Feurich",
+    "cta": "Descubrir Pianoforce"
+  },
+  "services": {
+    "eyebrow": "Servicio Integral",
+    "title": "Una Asociación Completa",
+    "subtitle": "Nuestra relación no termina con la entrega. Ofrecemos todos los servicios que su instrumento necesitará.",
+    "s1Title": "Consulta Privada",
+    "s1Desc": "Citas individuales en nuestro showroom o en su domicilio para encontrar el instrumento perfecto.",
+    "s2Title": "Entrega con Guantes Blancos",
+    "s2Desc": "Transporte especializado, colocación e instalación del piano por técnicos con plena cobertura de seguro.",
+    "s3Title": "Regulación y Afinación del Timbre",
+    "s3Desc": "Configuración experta para garantizar que su piano rinda al máximo desde la primera nota.",
+    "s4Title": "Afinación Anual",
+    "s4Desc": "Programas de mantenimiento programados para mantener su instrumento en perfecta afinación.",
+    "s5Title": "Restauración y Repulido",
+    "s5Desc": "Restauración de calidad de fábrica, refinición del gabinete y reacondicionamiento para cualquier instrumento Feurich.",
+    "s6Title": "Financiación Personalizada",
+    "s6Desc": "Planes de pago a medida y opciones de arrendamiento para hacer realidad el piano de sus sueños."
+  },
+  "journey": {
+    "eyebrow": "Nuestro Proceso",
+    "title": "El Viaje hacia su Piano",
+    "subtitle": "Le guiamos en cada paso, desde la inspiración inicial hasta la propiedad de por vida.",
+    "step1Title": "Descubrimiento",
+    "step1Desc": "Comenzamos con una conversación — su vida musical, su espacio, su visión estética. Sin presión. Solo pasión.",
+    "step2Title": "Visión Privada",
+    "step2Desc": "Asista a una visión exclusiva en nuestro showroom o concierte una visita a domicilio de nuestro equipo.",
+    "step3Title": "Personalización",
+    "step3Desc": "Elija su acabado, herrajes, componentes internos y cualquier elemento de diseño personalizado.",
+    "step4Title": "Encargo",
+    "step4Desc": "Su piano entra en el taller Feurich de Viena. Los maestros artesanos comienzan a dar vida a su especificación.",
+    "step5Title": "Entrega con Guantes Blancos",
+    "step5Desc": "Nuestro equipo de logística especializado entrega e instala su piano con el cuidado extraordinario que merece.",
+    "step6Title": "Asociación de por Vida",
+    "step6Desc": "Afinación, regulación y servicio continuo — estamos aquí durante toda la vida de su instrumento."
+  },
+  "about": {
+    "eyebrow": "Sobre Feurich Iberia",
+    "title": "Lo Mejor de Viena,\nTraído a la Península",
+    "text1": "Somos el representante exclusivo de Feurich para España y Portugal, acercando la más fina tradición pianística vienesa a la Península Ibérica con la pasión y el servicio personal que esta extraordinaria marca merece.",
+    "text2": "Como distribuidores autorizados, ofrecemos toda la gama Feurich — desde pianos verticales íntimos hasta grandes de sala de conciertos, desde acabados estándar hasta encargos de lujo totalmente personalizados — respaldados por un equipo de posventa dedicado.",
+    "cta": "Nuestra Historia Completa"
+  },
+  "contactCta": {
+    "eyebrow": "Comience su Viaje",
+    "title": "Nos Encantaría Saber de Usted",
+    "subtitle": "Visite nuestro showroom o concierte una consulta privada cuando le convenga.",
+    "cta": "Contáctenos"
+  },
+  "contact": {
+    "eyebrow": "Póngase en Contacto",
+    "title": "Contacte con Feurich Iberia",
+    "subtitle": "Le invitamos a visitar nuestro showroom o concertar una consulta privada a su conveniencia.",
+    "namePlaceholder": "Nombre Completo",
+    "emailPlaceholder": "Dirección de Email",
+    "phonePlaceholder": "Número de Teléfono",
+    "interestLabel": "Área de Interés",
+    "messagePlaceholder": "Cuéntenos sobre su piano ideal…",
+    "submit": "Enviar Consulta",
+    "interest1": "Ediciones de Lujo",
+    "interest2": "Pianos Autotocantes",
+    "interest3": "Pianos de Cola",
+    "interest4": "Pianos Verticales",
+    "interest5": "Diseño Personalizado",
+    "interest6": "Consulta General",
+    "showroomLabel": "Showroom",
+    "address": "Paseo de la Castellana 123\nMadrid, 28046, España",
+    "phoneLabel": "Teléfono",
+    "phoneVal": "+34 91 123 4567",
+    "emailLabel": "Email",
+    "emailVal": "info@feurichiberia.com",
+    "hoursLabel": "Horario",
+    "hoursVal": "Lunes – Sábado, 10:00 – 19:00"
+  },
+  "footer": {
+    "tagline": "Artesanía Vienesa. Pasión Ibérica.",
+    "copyright": "© 2025 Feurich Iberia. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "feurich": "Sitio Oficial de Feurich"
+  },
+  "luxury": {
+    "heroEyebrow": "Ediciones de Lujo",
+    "heroTitle": "Más Allá del Instrumento",
+    "heroSubtitle": "Donde el piano se convierte en arte",
+    "intro": "Para quienes solo lo extraordinario es suficiente, Feurich Iberia presenta nuestros encargos de Edición de Lujo — instrumentos creados en la intersección de la ingeniería musical y la artesanía de alto nivel.",
+    "crystalTitle": "Incrustación de Cristal",
+    "crystalText": "Los elementos de cristal Swarovski y personalizados se incrustan a mano en las superficies del gabinete por maestros artistas decorativos, creando instrumentos que brillan bajo la luz y cautivan antes de que se toque una sola nota.",
+    "goldTitle": "Pan de Oro",
+    "goldText": "Aplicación tradicional de pan de oro de 24 quilates, ejecutada por doradores especializados formados en las mejores tradiciones decorativas europeas. Los paneles, patas, atriles y herrajes pueden dorarse total o parcialmente.",
+    "lacquerTitle": "Laca y RAL Personalizados",
+    "lacquerText": "Todos los colores del sistema RAL, aplicados en acabados de alto brillo o satinado pulidos a mano. Su piano puede combinar perfectamente con cualquier interior.",
+    "inquiryCta": "Encargar una Edición de Lujo"
+  },
+  "selfPlayingPage": {
+    "heroEyebrow": "Pianos Autotocantes",
+    "heroTitle": "El Piano que Actúa",
+    "heroSubtitle": "Tecnología Pianoforce integrada de forma invisible en la artesanía Feurich",
+    "intro": "Imagine una actuación de concierto de calidad comenzando en su salón con un solo toque. Con la tecnología Pianoforce integrada en cualquier modelo Feurich, esto no es imaginación — es su nueva realidad.",
+    "howTitle": "Cómo Funciona",
+    "howText": "Pianoforce se instala en el interior del piano sin ninguna modificación visible. Los solenoides de precisión bajo cada tecla y pedal responden a los datos MIDI con la misma velocidad, temporización y matiz que el toque de un pianista maestro.",
+    "libraryTitle": "Un Repertorio Infinito",
+    "libraryText": "Acceda a miles de interpretaciones de pianistas profesionales, transmita nuevas grabaciones o cargue sus propios archivos MIDI. De Bach a Gershwin — el repertorio es ilimitado.",
+    "whyTitle": "La Inversión Trofeo",
+    "whyText": "Un Feurich autotocante es la pieza central definitiva — un objeto de lujo que también es un sistema de entretenimiento completo, una herramienta pedagógica, un instrumento de grabación y una pieza de conversación sin igual."
+  },
+  "grandUprightsPage": {
+    "heroEyebrow": "Colas y Verticales",
+    "heroTitle": "La Gama Completa",
+    "heroSubtitle": "Desde 116 cm hasta la sala de conciertos: un instrumento para cada espacio y ambición",
+    "uprightTitle": "Serie Vienna Vertical",
+    "uprightText": "La gama de pianos verticales Vienna representa la cúspide de la fabricación austriaca de pianos verticales.",
+    "grandTitle": "Serie Dynamic de Cola",
+    "grandText": "La gama de colas Dynamic ofrece un tono y una respuesta al tacto de calidad de concierto en instrumentos adecuados tanto para residencias privadas como para salas de actuación profesionales.",
+    "v116Name": "Vienna V116",
+    "v116Spec": "Altura: 116 cm · Elegancia compacta para espacios íntimos",
+    "v123Name": "Vienna V123",
+    "v123Spec": "Altura: 123 cm · Vertical insignia · Fabricado en Austria · Todos los colores RAL",
+    "v125Name": "Vienna V125",
+    "v125Spec": "Altura: 125 cm · Máxima potencia en un gabinete vertical",
+    "g162Name": "162 Dynamic",
+    "g162Spec": "Longitud: 162 cm (5'4\") · El refinado baby grand",
+    "g179Name": "179 Dynamic",
+    "g179Spec": "Longitud: 179 cm (5'10\") · El gran cola versátil para hogar y escenario",
+    "g218Name": "218 Concert 1",
+    "g218Spec": "Longitud: 218 cm (7'2\") · El gran cola de concierto"
+  },
+  "customPage": {
+    "heroEyebrow": "Diseño Personalizado",
+    "heroTitle": "Encargue su Visión",
+    "heroSubtitle": "Cada detalle, realizado en Viena según su especificación exacta",
+    "intro": "No hay dos vidas idénticas. No hay dos hogares iguales. Feurich cree que tampoco debería haber dos pianos iguales. Nuestro servicio de encargo personalizado le permite especificar cada aspecto de su instrumento.",
+    "whatTitle": "Qué se Puede Personalizar",
+    "what1": "Color del gabinete — cualquier color RAL, cualquier acabado (brillo, satinado, mate)",
+    "what2": "Especie de madera — nogal, palo de rosa, arce, ébano y chapas exóticas",
+    "what3": "Herrajes — latón, cromo, chapado en oro o herrería personalizada",
+    "what4": "Dimensiones — medidas no estándar para espacios arquitectónicos específicos",
+    "what5": "Incrustaciones y marquetería — elementos decorativos hechos a mano",
+    "what6": "Componentes internos — mecanismos Renner premium, calidades de martillo, calibres de cuerda",
+    "processTitle": "El Proceso de Encargo",
+    "processCta": "Iniciar su Encargo"
+  }
+}

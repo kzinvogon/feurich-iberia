@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="base-path" content="">
+  <title>Feurich Iberia — Vienna Craftsmanship. Iberian Passion.</title>
+  <meta name="description" content="Exclusive Feurich piano representative for Spain and Portugal. Luxury editions, self-playing pianos, grand and upright pianos, bespoke custom design.">
+  <meta property="og:title" content="Feurich Iberia">
+  <meta property="og:description" content="Vienna craftsmanship. Iberian passion. Exclusive Feurich pianos for Spain and Portugal.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <a href="index.html" class="nav__logo">Feurich<span>Iberia</span></a>
+
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav__menu" id="nav-menu">
+      <a href="#collection" class="nav__link" data-i18n="nav.collection"></a>
+
+      <div class="nav__dropdown">
+        <a href="#collection" class="nav__link" data-i18n="nav.collection">Collection</a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="collection/luxury.html" data-i18n="nav.luxury"></a></li>
+          <li><a href="collection/self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+          <li><a href="collection/grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+          <li><a href="collection/custom-design.html" data-i18n="nav.customDesign"></a></li>
+        </ul>
+      </div>
+
+      <a href="#services" class="nav__link" data-i18n="nav.services"></a>
+      <a href="#journey" class="nav__link" data-i18n="nav.journey"></a>
+      <a href="#about" class="nav__link" data-i18n="nav.about"></a>
+      <a href="contact.html" class="nav__link" data-i18n="nav.contact"></a>
+
+      <div class="nav__lang">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="pt">PT</button>
+      </div>
+
+      <a href="contact.html" class="nav__book" data-i18n="nav.bookConsultation"></a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow" data-i18n="hero.eyebrow"></p>
+      <h1 class="hero__title" data-i18n="hero.title"></h1>
+      <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+      <div class="hero__actions">
+        <a href="#collection" class="btn btn--gold" data-i18n="hero.cta"></a>
+        <a href="contact.html" class="btn btn--outline" data-i18n="hero.secondary"></a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Brand Introduction -->
+  <section class="brand-intro section" id="brand">
+    <div class="container">
+      <div class="brand-intro__grid">
+        <div class="brand-intro__text">
+          <p class="eyebrow" data-i18n="brandIntro.eyebrow"></p>
+          <div class="gold-rule"></div>
+          <h2 data-reveal data-i18n="brandIntro.title"></h2>
+          <p class="lead" data-reveal data-reveal-delay="1" data-i18n="brandIntro.text"></p>
+        </div>
+        <div class="stats-row">
+          <div class="stat" data-reveal data-reveal-delay="1">
+            <span class="stat__number" data-count="1851" data-i18n="brandIntro.foundedYear"></span>
+            <span class="stat__label" data-i18n="brandIntro.foundedLabel"></span>
+          </div>
+          <div class="stat" data-reveal data-reveal-delay="2">
+            <span class="stat__number" data-count="5" data-i18n="brandIntro.generationsNum"></span>
+            <span class="stat__label" data-i18n="brandIntro.generationsLabel"></span>
+          </div>
+          <div class="stat" data-reveal data-reveal-delay="3">
+            <span class="stat__number" data-i18n="brandIntro.finishesNum"></span>
+            <span class="stat__label" data-i18n="brandIntro.finishesLabel"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection -->
+  <section class="section section--dark" id="collection">
+    <div class="container">
+      <div class="collection__header" data-reveal>
+        <p class="eyebrow" data-i18n="collection.eyebrow"></p>
+        <div class="gold-rule gold-rule--center"></div>
+        <h2 data-i18n="collection.title"></h2>
+        <p class="lead" style="margin-top:.8rem" data-i18n="collection.subtitle"></p>
+      </div>
+      <div class="collection__grid">
+        <a href="collection/luxury.html" class="collection-card" data-reveal>
+          <div class="collection-card__img collection-card__img--luxury"></div>
+          <div class="collection-card__body">
+            <h3 data-i18n="collection.luxury.title"></h3>
+            <p data-i18n="collection.luxury.desc"></p>
+            <span class="collection-card__cta" data-i18n="collection.explore"></span>
+          </div>
+        </a>
+        <a href="collection/self-playing.html" class="collection-card" data-reveal data-reveal-delay="1">
+          <div class="collection-card__img collection-card__img--selfplaying"></div>
+          <div class="collection-card__body">
+            <h3 data-i18n="collection.selfPlaying.title"></h3>
+            <p data-i18n="collection.selfPlaying.desc"></p>
+            <span class="collection-card__cta" data-i18n="collection.explore"></span>
+          </div>
+        </a>
+        <a href="collection/grand-uprights.html" class="collection-card" data-reveal>
+          <div class="collection-card__img collection-card__img--grands"></div>
+          <div class="collection-card__body">
+            <h3 data-i18n="collection.grandUprights.title"></h3>
+            <p data-i18n="collection.grandUprights.desc"></p>
+            <span class="collection-card__cta" data-i18n="collection.explore"></span>
+          </div>
+        </a>
+        <a href="collection/custom-design.html" class="collection-card" data-reveal data-reveal-delay="1">
+          <div class="collection-card__img collection-card__img--custom"></div>
+          <div class="collection-card__body">
+            <h3 data-i18n="collection.customDesign.title"></h3>
+            <p data-i18n="collection.customDesign.desc"></p>
+            <span class="collection-card__cta" data-i18n="collection.explore"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured: Vienna V123 -->
+  <section class="featured section" id="vienna">
+    <div class="container">
+      <div class="featured__grid">
+        <div class="featured__visual" data-reveal="left">
+          <div class="featured__badge" data-i18n="featured.madeIn"></div>
+          <img src="images/piano-16.jpeg" alt="Feurich Vienna V123" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85;">
+        </div>
+        <div class="featured__content" data-reveal="right">
+          <p class="eyebrow" data-i18n="featured.eyebrow"></p>
+          <div class="gold-rule"></div>
+          <h2 data-i18n="featured.title"></h2>
+          <p class="featured__subtitle" data-i18n="featured.madeIn"></p>
+          <p class="featured__text" data-i18n="featured.text"></p>
+          <div class="featured__specs">
+            <div class="featured__spec" data-i18n="featured.spec1"></div>
+            <div class="featured__spec" data-i18n="featured.spec2"></div>
+            <div class="featured__spec" data-i18n="featured.spec3"></div>
+            <div class="featured__spec" data-i18n="featured.spec4"></div>
+            <div class="featured__spec" data-i18n="featured.spec5"></div>
+          </div>
+          <a href="contact.html" class="btn btn--gold" data-i18n="featured.cta"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Self-Playing -->
+  <section class="self-playing section section--dark" id="self-playing">
+    <div class="container">
+      <div class="self-playing__grid">
+        <div class="self-playing__content" data-reveal="left">
+          <p class="eyebrow" data-i18n="selfPlayingSection.eyebrow"></p>
+          <div class="gold-rule"></div>
+          <h2 data-i18n="selfPlayingSection.title"></h2>
+          <p class="lead" style="margin:.8rem 0 1.5rem" data-i18n="selfPlayingSection.text"></p>
+          <div class="self-playing__features">
+            <div class="sp-feature" data-i18n="selfPlayingSection.f1"></div>
+            <div class="sp-feature" data-i18n="selfPlayingSection.f2"></div>
+            <div class="sp-feature" data-i18n="selfPlayingSection.f3"></div>
+            <div class="sp-feature" data-i18n="selfPlayingSection.f4"></div>
+            <div class="sp-feature" data-i18n="selfPlayingSection.f5"></div>
+          </div>
+          <a href="collection/self-playing.html" class="btn btn--ghost" style="margin-top:1.5rem" data-i18n="selfPlayingSection.cta"></a>
+        </div>
+        <div class="self-playing__visual" data-reveal="right">
+          <!-- Replace with real image: <img src="images/self-playing.jpg" alt="Self-playing Feurich"> -->
+          <div class="keys-animation" aria-hidden="true">
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+            <div class="key"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="services__header" data-reveal>
+        <p class="eyebrow" data-i18n="services.eyebrow"></p>
+        <div class="gold-rule gold-rule--center"></div>
+        <h2 data-i18n="services.title"></h2>
+        <p class="lead" style="margin-top:.8rem" data-i18n="services.subtitle"></p>
+      </div>
+      <div class="services__grid">
+        <div class="service-item" data-reveal>
+          <span class="service-item__icon">✦</span>
+          <h4 data-i18n="services.s1Title"></h4>
+          <p data-i18n="services.s1Desc"></p>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="1">
+          <span class="service-item__icon">✦</span>
+          <h4 data-i18n="services.s2Title"></h4>
+          <p data-i18n="services.s2Desc"></p>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="2">
+          <span class="service-item__icon">✦</span>
+          <h4 data-i18n="services.s3Title"></h4>
+          <p data-i18n="services.s3Desc"></p>
+        </div>
+        <div class="service-item" data-reveal>
+          <span class="service-item__icon">✦</span>
+          <h4 data-i18n="services.s4Title"></h4>
+          <p data-i18n="services.s4Desc"></p>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="1">
+          <span class="service-item__icon">✦</span>
+          <h4 data-i18n="services.s5Title"></h4>
+          <p data-i18n="services.s5Desc"></p>
+        </div>
+        <div class="service-item" data-reveal data-reveal-delay="2">
+          <span class="service-item__icon">✦</span>
+          <h4 data-i18n="services.s6Title"></h4>
+          <p data-i18n="services.s6Desc"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journey / Engagement Process -->
+  <section class="section section--dark" id="journey">
+    <div class="container">
+      <div class="journey__header" data-reveal>
+        <p class="eyebrow" data-i18n="journey.eyebrow"></p>
+        <div class="gold-rule gold-rule--center"></div>
+        <h2 data-i18n="journey.title"></h2>
+        <p class="lead" style="margin-top:.8rem" data-i18n="journey.subtitle"></p>
+      </div>
+      <div class="journey__steps">
+        <div class="journey-step" data-reveal>
+          <div class="journey-step__num">01</div>
+          <h4 data-i18n="journey.step1Title"></h4>
+          <p data-i18n="journey.step1Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="1">
+          <div class="journey-step__num">02</div>
+          <h4 data-i18n="journey.step2Title"></h4>
+          <p data-i18n="journey.step2Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="2">
+          <div class="journey-step__num">03</div>
+          <h4 data-i18n="journey.step3Title"></h4>
+          <p data-i18n="journey.step3Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal>
+          <div class="journey-step__num">04</div>
+          <h4 data-i18n="journey.step4Title"></h4>
+          <p data-i18n="journey.step4Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="1">
+          <div class="journey-step__num">05</div>
+          <h4 data-i18n="journey.step5Title"></h4>
+          <p data-i18n="journey.step5Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="2">
+          <div class="journey-step__num">06</div>
+          <h4 data-i18n="journey.step6Title"></h4>
+          <p data-i18n="journey.step6Desc"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual" data-reveal="left">
+          <div class="about__img"></div>
+          <div class="about__img-frame"></div>
+        </div>
+        <div class="about__content" data-reveal="right">
+          <p class="eyebrow" data-i18n="about.eyebrow"></p>
+          <div class="gold-rule"></div>
+          <h2 data-i18n="about.title"></h2>
+          <p data-i18n="about.text1" style="margin-top:1.5rem"></p>
+          <p data-i18n="about.text2"></p>
+          <a href="about.html" class="btn btn--ghost" style="margin-top:2rem" data-i18n="about.cta"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="contact-cta" id="contact">
+    <div class="container">
+      <p class="eyebrow" data-reveal data-i18n="contactCta.eyebrow"></p>
+      <div class="gold-rule gold-rule--center" data-reveal></div>
+      <h2 data-reveal data-i18n="contactCta.title"></h2>
+      <p data-reveal data-i18n="contactCta.subtitle"></p>
+      <a href="contact.html" class="btn btn--gold" data-reveal data-i18n="contactCta.cta"></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">Feurich</div>
+          <div class="footer__brand-sub">Iberia</div>
+          <p class="footer__tagline" data-i18n="footer.tagline"></p>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="nav.collection"></p>
+          <ul class="footer__links">
+            <li><a href="collection/luxury.html" data-i18n="nav.luxury"></a></li>
+            <li><a href="collection/self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+            <li><a href="collection/grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+            <li><a href="collection/custom-design.html" data-i18n="nav.customDesign"></a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="nav.services"></p>
+          <ul class="footer__links">
+            <li><a href="services.html" data-i18n="nav.services"></a></li>
+            <li><a href="#journey" data-i18n="nav.journey"></a></li>
+            <li><a href="about.html" data-i18n="nav.about"></a></li>
+            <li><a href="contact.html" data-i18n="nav.contact"></a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="contact.emailLabel"></p>
+          <ul class="footer__links">
+            <li><a href="tel:+34911234567" data-i18n="contact.phoneVal"></a></li>
+            <li><a href="mailto:info@feurichiberia.com" data-i18n="contact.emailVal"></a></li>
+            <li style="margin-top:.5rem"><span data-i18n="contact.hoursVal" style="font-size:.75rem;color:var(--text-muted);"></span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright"></p>
+        <div class="footer__legal">
+          <a href="#" data-i18n="footer.privacy"></a>
+          <a href="#" data-i18n="footer.terms"></a>
+          <a href="https://feurich.com" target="_blank" rel="noopener" data-i18n="footer.feurich"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

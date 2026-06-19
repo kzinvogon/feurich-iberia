@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="base-path" content="">
+  <title>About — Feurich Iberia</title>
+  <meta name="description" content="Feurich Iberia — the exclusive Feurich piano representative for Spain and Portugal. Vienna craftsmanship. Iberian passion.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .about-timeline { border-left: 1px solid var(--border); padding-left: 2.5rem; margin-top: 3rem; }
+    .timeline-entry { position: relative; margin-bottom: 2.5rem; }
+    .timeline-entry::before {
+      content: '';
+      position: absolute;
+      left: -2.5rem;
+      top: .3rem;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--gold);
+      transform: translateX(-50%);
+    }
+    .timeline-year { font-family: var(--serif); font-size: 1.5rem; color: var(--gold); margin-bottom: .3rem; }
+    .timeline-entry p { font-size: .9rem; }
+  </style>
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="index.html" class="nav__logo">Feurich<span>Iberia</span></a>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav__menu" id="nav-menu">
+      <div class="nav__dropdown">
+        <a href="index.html#collection" class="nav__link" data-i18n="nav.collection">Collection</a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="collection/luxury.html" data-i18n="nav.luxury"></a></li>
+          <li><a href="collection/self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+          <li><a href="collection/grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+          <li><a href="collection/custom-design.html" data-i18n="nav.customDesign"></a></li>
+        </ul>
+      </div>
+      <a href="index.html#services" class="nav__link" data-i18n="nav.services"></a>
+      <a href="index.html#journey" class="nav__link" data-i18n="nav.journey"></a>
+      <a href="about.html" class="nav__link nav__link--active" data-i18n="nav.about"></a>
+      <a href="contact.html" class="nav__link" data-i18n="nav.contact"></a>
+      <div class="nav__lang">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="pt">PT</button>
+      </div>
+      <a href="contact.html" class="nav__book" data-i18n="nav.bookConsultation"></a>
+    </div>
+  </nav>
+
+  <main class="about-page section">
+    <div class="container">
+      <div class="page-header" data-reveal>
+        <p class="eyebrow" data-i18n="about.eyebrow"></p>
+        <div class="gold-rule"></div>
+        <h1 data-i18n="about.title"></h1>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1.3fr 1fr;gap:6rem;align-items:start" class="about-main-grid">
+        <div data-reveal>
+          <p class="lead" data-i18n="about.text1" style="margin-bottom:1.5rem"></p>
+          <p class="lead" data-i18n="about.text2" style="margin-bottom:3rem"></p>
+
+          <h3 style="margin-bottom:1rem">Feurich — Since 1851</h3>
+          <p style="margin-bottom:1.2rem">Julius Feurich founded his piano manufacturing business in Leipzig in 1851, quickly establishing a reputation for instruments of exceptional tonal quality and mechanical precision. Over five generations, the family advanced the art of piano building without ever compromising the principles on which the company was founded.</p>
+          <p style="margin-bottom:1.2rem">Today, Feurich pianos are built in Vienna — the capital of classical music — drawing on the city's unrivalled tradition of instrument making. The Vienna range, particularly the Model 123, is produced entirely in Austria to the highest standards of European craftsmanship.</p>
+          <p>As the exclusive Iberian representative, we carry this legacy into every instrument we present, every consultation we offer, and every relationship we build with our clients.</p>
+
+          <div class="about-timeline">
+            <div class="timeline-entry">
+              <div class="timeline-year">1851</div>
+              <p>Julius Feurich founds the company in Leipzig, Germany.</p>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-year">5 Generations</div>
+              <p>The Feurich family continues to lead the company, advancing techniques while preserving tradition.</p>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-year">Vienna</div>
+              <p>Production moves to Vienna, Austria — the spiritual home of classical music and piano building.</p>
+            </div>
+            <div class="timeline-entry">
+              <div class="timeline-year">Iberia</div>
+              <p>Feurich Iberia is established as the exclusive representative for Spain and Portugal.</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-reveal data-reveal-delay="1">
+          <div class="about__visual">
+            <div class="about__img" style="min-height:400px;background:linear-gradient(145deg,#1a1209 0%,#0d0d0d 100%)"></div>
+            <div class="about__img-frame"></div>
+          </div>
+
+          <div style="margin-top:3rem">
+            <p class="eyebrow">Our Commitment</p>
+            <div class="gold-rule"></div>
+            <p style="margin-bottom:1rem">We are not simply a retailer. We are a long-term partner in your relationship with your instrument. From the first conversation to decades of maintenance and care, we are here.</p>
+            <a href="contact.html" class="btn btn--gold" style="margin-top:1rem" data-i18n="nav.bookConsultation"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="contact-cta">
+    <div class="container">
+      <p class="eyebrow" data-i18n="contactCta.eyebrow"></p>
+      <div class="gold-rule gold-rule--center"></div>
+      <h2 data-i18n="contactCta.title"></h2>
+      <p data-i18n="contactCta.subtitle"></p>
+      <a href="contact.html" class="btn btn--gold" style="margin-top:1.5rem" data-i18n="contactCta.cta"></a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">Feurich</div>
+          <div class="footer__brand-sub">Iberia</div>
+          <p class="footer__tagline" data-i18n="footer.tagline"></p>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="nav.collection"></p>
+          <ul class="footer__links">
+            <li><a href="collection/luxury.html" data-i18n="nav.luxury"></a></li>
+            <li><a href="collection/self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+            <li><a href="collection/grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+            <li><a href="collection/custom-design.html" data-i18n="nav.customDesign"></a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="nav.services"></p>
+          <ul class="footer__links">
+            <li><a href="services.html" data-i18n="nav.services"></a></li>
+            <li><a href="about.html" data-i18n="nav.about"></a></li>
+            <li><a href="contact.html" data-i18n="nav.contact"></a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="contact.emailLabel"></p>
+          <ul class="footer__links">
+            <li><a href="tel:+34911234567" data-i18n="contact.phoneVal"></a></li>
+            <li><a href="mailto:info@feurichiberia.com" data-i18n="contact.emailVal"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright"></p>
+        <div class="footer__legal">
+          <a href="#" data-i18n="footer.privacy"></a>
+          <a href="#" data-i18n="footer.terms"></a>
+          <a href="https://feurich.com" target="_blank" rel="noopener" data-i18n="footer.feurich"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+  <style>
+    @media (max-width: 768px) { .about-main-grid { grid-template-columns: 1fr !important; } }
+  </style>
+</body>
+</html>

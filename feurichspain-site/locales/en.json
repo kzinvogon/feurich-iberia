@@ -1,0 +1,220 @@
+{
+  "lang": "en",
+  "langLabel": "English",
+  "nav": {
+    "home": "Home",
+    "collection": "Collection",
+    "luxury": "Luxury Editions",
+    "selfPlaying": "Self-Playing Pianos",
+    "grandUprights": "Grands & Uprights",
+    "customDesign": "Custom Design",
+    "services": "Services",
+    "journey": "Our Process",
+    "about": "About",
+    "contact": "Contact",
+    "bookConsultation": "Book Consultation"
+  },
+  "hero": {
+    "eyebrow": "Vienna Craftsmanship · Iberian Passion",
+    "title": "Where Music\nMeets Mastery",
+    "subtitle": "Exclusive Feurich Piano representative for Spain and Portugal",
+    "cta": "Discover the Collection",
+    "secondary": "Book a Private Consultation"
+  },
+  "brandIntro": {
+    "eyebrow": "Est. 1851 · Vienna, Austria",
+    "title": "An Instrument. A Legacy.",
+    "text": "Since 1851, Feurich has embodied the highest tradition of Viennese piano making — five generations of master craftsmen, each advancing the art without abandoning its soul. Every Feurich piano is a convergence of engineering precision and artistic vision, built to endure for lifetimes and to inspire at every touch.",
+    "foundedYear": "1851",
+    "foundedLabel": "Founded in Vienna",
+    "generationsNum": "5",
+    "generationsLabel": "Generations of Mastery",
+    "finishesNum": "∞",
+    "finishesLabel": "Possible Finishes"
+  },
+  "collection": {
+    "eyebrow": "The Collection",
+    "title": "Find Your Piano",
+    "subtitle": "From breathtaking luxury editions to fully bespoke commissions, each Feurich is a singular creation.",
+    "explore": "Explore",
+    "luxury": {
+      "title": "Luxury Editions",
+      "desc": "Crystal Swarovski inlay, 24k gold leaf, and extraordinary artistic finishes — pianos that transcend instruments to become heirlooms."
+    },
+    "selfPlaying": {
+      "title": "Self-Playing Pianos",
+      "desc": "A symphony at your command. Feurich pianos with integrated Pianoforce technology that perform with breathtaking realism."
+    },
+    "grandUprights": {
+      "title": "Grands & Uprights",
+      "desc": "From the concert-hall 218 Concert 1 to the intimate Vienna V116 — instruments built for every space, every ambition."
+    },
+    "customDesign": {
+      "title": "Custom Design",
+      "desc": "Commission a piano as unique as you. Any colour, any material, any vision — realised by Feurich's Viennese atelier."
+    }
+  },
+  "featured": {
+    "eyebrow": "Flagship Model",
+    "title": "The Vienna V123",
+    "madeIn": "Made in Austria",
+    "text": "The Feurich Model 123 Vienna is not merely built — it is composed. Featuring a redesigned Renner action, high-speed KAMM mechanics and Weickert-Special felt hammers, this is the Vienna upright redefined. Available in every colour of the RAL spectrum, it is finished to match any interior or personal vision.",
+    "spec1": "Height: 123 cm",
+    "spec2": "Action: Renner with KAMM high-speed",
+    "spec3": "Hammers: Weickert-Special felt",
+    "spec4": "Finishes: All RAL colours available",
+    "spec5": "Origin: Made in Austria",
+    "cta": "Request This Model"
+  },
+  "selfPlayingSection": {
+    "eyebrow": "Pianoforce Technology",
+    "title": "The Piano That Plays Itself",
+    "text": "Integrated invisibly within the cabinet, the Pianoforce self-playing system transforms any Feurich piano into an autonomous concert performer. Stream from a curated library, record your own playing, or simply sit back and let Beethoven fill the room. Every key moves. Every pedal depresses. The full magic of live performance — on demand.",
+    "f1": "Integrated invisibly within the cabinet",
+    "f2": "Record, playback and stream performances",
+    "f3": "Full MIDI and audio library compatibility",
+    "f4": "Integrated speakers for accompaniment",
+    "f5": "Compatible with all Feurich models",
+    "cta": "Discover Pianoforce"
+  },
+  "services": {
+    "eyebrow": "Holistic Service",
+    "title": "A Complete Piano Partnership",
+    "subtitle": "Our relationship does not end at delivery. We provide every service your instrument will ever need.",
+    "s1Title": "Private Consultation",
+    "s1Desc": "One-to-one appointments at our showroom or your home to find the perfect instrument for your space and lifestyle.",
+    "s2Title": "White-Glove Delivery",
+    "s2Desc": "Specialist piano transport, placement and installation by trained technicians with full insurance coverage.",
+    "s3Title": "Regulation & Voicing",
+    "s3Desc": "Expert setup and optimisation to ensure your piano performs at its absolute best from the very first note.",
+    "s4Title": "Annual Tuning",
+    "s4Desc": "Scheduled maintenance programmes to keep your instrument in perfect pitch and pristine condition.",
+    "s5Title": "Restoration & Repolishing",
+    "s5Desc": "Factory-quality restoration, cabinet refinishing and reconditioning for any Feurich instrument.",
+    "s6Title": "Bespoke Financing",
+    "s6Desc": "Tailored payment plans and lease options to make your dream piano a reality without compromise."
+  },
+  "journey": {
+    "eyebrow": "Our Process",
+    "title": "The Journey to Your Piano",
+    "subtitle": "We guide you through every step, from initial inspiration to lifelong ownership.",
+    "step1Title": "Discovery",
+    "step1Desc": "We begin with a conversation — your musical life, your space, your aesthetic vision. No pressure. Just passion.",
+    "step2Title": "Private Viewing",
+    "step2Desc": "Attend an exclusive viewing at our showroom or arrange an in-home visit from our specialist team.",
+    "step3Title": "Personalisation",
+    "step3Desc": "Select your finish, hardware, internal components and any bespoke design elements with our atelier team.",
+    "step4Title": "Commission",
+    "step4Desc": "Your piano enters the Feurich workshop in Vienna. Master craftsmen begin bringing your specification to life.",
+    "step5Title": "White-Glove Delivery",
+    "step5Desc": "Our specialist logistics team delivers and installs your piano with the extraordinary care it deserves.",
+    "step6Title": "Lifelong Partnership",
+    "step6Desc": "Ongoing tuning, regulation and service — we are here for the full life of your instrument."
+  },
+  "about": {
+    "eyebrow": "About Feurich Iberia",
+    "title": "Vienna's Finest,\nBrought to the Peninsula",
+    "text1": "We are the exclusive Feurich representative for Spain and Portugal, bringing Vienna's finest piano tradition to the Iberian Peninsula with the passion and personal service this extraordinary brand deserves.",
+    "text2": "As authorised dealers, we offer the complete Feurich portfolio — from intimate upright pianos to concert-hall grands, from curated standard finishes to fully bespoke luxury commissions — supported by a dedicated aftersales service team.",
+    "cta": "Our Full Story"
+  },
+  "contactCta": {
+    "eyebrow": "Begin Your Journey",
+    "title": "We Would Love to Hear from You",
+    "subtitle": "Visit our showroom or arrange a private consultation at a time that suits you.",
+    "cta": "Contact Us"
+  },
+  "contact": {
+    "eyebrow": "Get in Touch",
+    "title": "Contact Feurich Iberia",
+    "subtitle": "We invite you to visit our showroom or arrange a private consultation at your convenience.",
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email Address",
+    "phonePlaceholder": "Phone Number",
+    "interestLabel": "Area of Interest",
+    "messagePlaceholder": "Tell us about your ideal piano…",
+    "submit": "Send Enquiry",
+    "interest1": "Luxury Editions",
+    "interest2": "Self-Playing Pianos",
+    "interest3": "Grand Pianos",
+    "interest4": "Upright Pianos",
+    "interest5": "Custom Design",
+    "interest6": "General Enquiry",
+    "showroomLabel": "Showroom",
+    "address": "Paseo de la Castellana 123\nMadrid, 28046, Spain",
+    "phoneLabel": "Telephone",
+    "phoneVal": "+34 91 123 4567",
+    "emailLabel": "Email",
+    "emailVal": "info@feurichiberia.com",
+    "hoursLabel": "Opening Hours",
+    "hoursVal": "Monday – Saturday, 10:00 – 19:00"
+  },
+  "footer": {
+    "tagline": "Vienna Craftsmanship. Iberian Passion.",
+    "copyright": "© 2025 Feurich Iberia. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "feurich": "Feurich Official Website"
+  },
+  "luxury": {
+    "heroEyebrow": "Luxury Editions",
+    "heroTitle": "Beyond the Instrument",
+    "heroSubtitle": "Where the piano becomes art",
+    "intro": "For those for whom only the extraordinary will suffice, Feurich Iberia presents our Luxury Edition commissions — instruments created at the intersection of musical engineering and haute artisanship.",
+    "crystalTitle": "Crystal Inlay",
+    "crystalText": "Swarovski and bespoke crystal elements are hand-inlaid into the cabinet surfaces by master decorative artists, creating instruments that shimmer under light and captivate before a single note is played. Available on any Feurich model, in any crystal specification.",
+    "goldTitle": "Gold Leaf",
+    "goldText": "Traditional 24-karat gold leaf application, executed by specialist gilders trained in the finest European decorative traditions. Panels, legs, music desks and hardware can all be gilded — fully or partially — to create an instrument of sovereign beauty.",
+    "lacquerTitle": "Bespoke Lacquer & RAL",
+    "lacquerText": "Every colour in the RAL system, applied in hand-polished high-gloss or satin finishes. From purest white to deepest midnight, from vivid contemporary colour to restrained Scandinavian palette — your piano can match any interior perfectly.",
+    "inquiryCta": "Commission a Luxury Edition"
+  },
+  "selfPlayingPage": {
+    "heroEyebrow": "Self-Playing Pianos",
+    "heroTitle": "The Piano That Performs",
+    "heroSubtitle": "Pianoforce technology integrated invisibly into Feurich craftsmanship",
+    "intro": "Imagine a Steinway-quality concert performance beginning in your living room at a single touch. With Pianoforce technology integrated into any Feurich model, this is not imagination — it is your new reality.",
+    "howTitle": "How It Works",
+    "howText": "Pianoforce installs within the piano cabinet without any visible modification. Precision solenoids under each key and pedal respond to MIDI data with the same velocity, timing and nuance as a master pianist's touch. The result is indistinguishable from live performance — because mechanically, it is.",
+    "libraryTitle": "An Infinite Repertoire",
+    "libraryText": "Access thousands of performances from professional pianists, stream new recordings, or upload your own MIDI files. From Bach to Gershwin, from private recordings to concert premieres — the repertoire is limitless.",
+    "whyTitle": "The Trophy Investment",
+    "whyText": "A self-playing Feurich is the ultimate statement piece — a luxury object that is also a complete entertainment system, a teaching aid, a recording instrument, and a conversation piece without equal. For hotels, private residences, showrooms and yachts, it is simply incomparable."
+  },
+  "grandUprightsPage": {
+    "heroEyebrow": "Grands & Uprights",
+    "heroTitle": "The Complete Range",
+    "heroSubtitle": "From 116 cm to concert hall: an instrument for every space and ambition",
+    "uprightTitle": "Vienna Upright Series",
+    "uprightText": "The Vienna upright range represents the pinnacle of Austrian upright piano manufacturing, with each model available in standard or custom finishes.",
+    "grandTitle": "Dynamic Grand Series",
+    "grandText": "The Dynamic grand piano range delivers concert-quality tone and touch response in instruments suited to both private residences and professional performance venues.",
+    "v116Name": "Vienna V116",
+    "v116Spec": "Height: 116 cm · Compact elegance for intimate spaces",
+    "v123Name": "Vienna V123",
+    "v123Spec": "Height: 123 cm · Flagship upright · Made in Austria · All RAL colours",
+    "v125Name": "Vienna V125",
+    "v125Spec": "Height: 125 cm · Maximum power from an upright cabinet",
+    "g162Name": "162 Dynamic",
+    "g162Spec": "Length: 162 cm (5'4\") · The refined baby grand",
+    "g179Name": "179 Dynamic",
+    "g179Spec": "Length: 179 cm (5'10\") · The versatile grand for home and stage",
+    "g218Name": "218 Concert 1",
+    "g218Spec": "Length: 218 cm (7'2\") · The concert grand"
+  },
+  "customPage": {
+    "heroEyebrow": "Custom Design",
+    "heroTitle": "Commission Your Vision",
+    "heroSubtitle": "Every detail, realised in Vienna to your exact specification",
+    "intro": "No two lives are identical. No two homes are the same. Feurich believes no two pianos should be either. Our bespoke commission service allows you to specify every aspect of your instrument — from the wood species used in the cabinet to the design of the fallboard hardware.",
+    "whatTitle": "What Can Be Customised",
+    "what1": "Cabinet colour — any RAL colour, any finish (gloss, satin, matte)",
+    "what2": "Wood species — walnut, rosewood, maple, ebony and exotic veneers",
+    "what3": "Hardware — brass, chrome, gold-plated, or bespoke metalwork",
+    "what4": "Dimensions — non-standard sizes for specific architectural spaces",
+    "what5": "Inlay and marquetry — hand-crafted decorative elements",
+    "what6": "Internal components — premium Renner actions, hammer grades, string gauges",
+    "processTitle": "The Commission Process",
+    "processCta": "Begin Your Commission"
+  }
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="base-path" content="../">
+  <title>Custom Design — Feurich Iberia</title>
+  <meta name="description" content="Commission a bespoke Feurich piano. Any colour, any material, any vision — realised in Vienna to your exact specification.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="../index.html" class="nav__logo">Feurich<span>Iberia</span></a>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav__menu" id="nav-menu">
+      <div class="nav__dropdown">
+        <a href="../index.html#collection" class="nav__link" data-i18n="nav.collection">Collection</a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="luxury.html" data-i18n="nav.luxury"></a></li>
+          <li><a href="self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+          <li><a href="grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+          <li><a href="custom-design.html" data-i18n="nav.customDesign"></a></li>
+        </ul>
+      </div>
+      <a href="../index.html#services" class="nav__link" data-i18n="nav.services"></a>
+      <a href="../index.html#journey" class="nav__link" data-i18n="nav.journey"></a>
+      <a href="../about.html" class="nav__link" data-i18n="nav.about"></a>
+      <a href="../contact.html" class="nav__link" data-i18n="nav.contact"></a>
+      <div class="nav__lang">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="pt">PT</button>
+      </div>
+      <a href="../contact.html" class="nav__book" data-i18n="nav.bookConsultation"></a>
+    </div>
+  </nav>
+
+  <header class="sub-hero sub-hero--custom">
+    <div class="sub-hero__bg"></div>
+    <div class="container sub-hero__content">
+      <p class="eyebrow" data-i18n="customPage.heroEyebrow"></p>
+      <div class="gold-rule"></div>
+      <h1 data-i18n="customPage.heroTitle"></h1>
+      <p class="lead" data-i18n="customPage.heroSubtitle"></p>
+    </div>
+  </header>
+
+  <!-- Intro -->
+  <section class="section">
+    <div class="container" style="max-width:780px">
+      <p class="lead" data-reveal data-i18n="customPage.intro"></p>
+    </div>
+  </section>
+
+  <!-- What can be customised -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="feature-block">
+        <div class="feature-block__visual" data-reveal="left">
+          <!-- Decorative colour swatches visual -->
+          <div style="position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:rgba(201,168,76,.1)">
+            <div style="background:linear-gradient(145deg,#0a0a0a,#1a1a1a)"></div>
+            <div style="background:linear-gradient(145deg,#1a0f05,#2a1a0a)"></div>
+            <div style="background:linear-gradient(145deg,#f5f0e8,#e0d8cc)"></div>
+            <div style="background:linear-gradient(145deg,#0a0a1a,#0f0f2a)"></div>
+            <div style="background:linear-gradient(145deg,#c9a84c,#8b6914)"></div>
+            <div style="background:linear-gradient(145deg,#1a0a0a,#2a0f0f)"></div>
+          </div>
+        </div>
+        <div class="feature-block__content" data-reveal="right">
+          <p class="eyebrow" data-i18n="customPage.whatTitle"></p>
+          <div class="gold-rule"></div>
+          <h2 data-i18n="customPage.whatTitle"></h2>
+          <ul class="custom-list" style="margin-top:1.5rem">
+            <li data-i18n="customPage.what1"></li>
+            <li data-i18n="customPage.what2"></li>
+            <li data-i18n="customPage.what3"></li>
+            <li data-i18n="customPage.what4"></li>
+            <li data-i18n="customPage.what5"></li>
+            <li data-i18n="customPage.what6"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:4rem" data-reveal>
+        <p class="eyebrow" data-i18n="customPage.processTitle"></p>
+        <div class="gold-rule gold-rule--center"></div>
+        <h2 data-i18n="journey.title"></h2>
+        <p class="lead" style="margin-top:.8rem" data-i18n="journey.subtitle"></p>
+      </div>
+      <div class="journey__steps">
+        <div class="journey-step" data-reveal>
+          <div class="journey-step__num">01</div>
+          <h4 data-i18n="journey.step1Title"></h4>
+          <p data-i18n="journey.step1Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="1">
+          <div class="journey-step__num">02</div>
+          <h4 data-i18n="journey.step2Title"></h4>
+          <p data-i18n="journey.step2Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="2">
+          <div class="journey-step__num">03</div>
+          <h4 data-i18n="journey.step3Title"></h4>
+          <p data-i18n="journey.step3Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal>
+          <div class="journey-step__num">04</div>
+          <h4 data-i18n="journey.step4Title"></h4>
+          <p data-i18n="journey.step4Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="1">
+          <div class="journey-step__num">05</div>
+          <h4 data-i18n="journey.step5Title"></h4>
+          <p data-i18n="journey.step5Desc"></p>
+        </div>
+        <div class="journey-step" data-reveal data-reveal-delay="2">
+          <div class="journey-step__num">06</div>
+          <h4 data-i18n="journey.step6Title"></h4>
+          <p data-i18n="journey.step6Desc"></p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:4rem" data-reveal>
+        <a href="../contact.html" class="btn btn--gold" data-i18n="customPage.processCta"></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">Feurich</div>
+          <div class="footer__brand-sub">Iberia</div>
+          <p class="footer__tagline" data-i18n="footer.tagline"></p>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="nav.collection"></p>
+          <ul class="footer__links">
+            <li><a href="luxury.html" data-i18n="nav.luxury"></a></li>
+            <li><a href="self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+            <li><a href="grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+            <li><a href="custom-design.html" data-i18n="nav.customDesign"></a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="nav.services"></p>
+          <ul class="footer__links">
+            <li><a href="../services.html" data-i18n="nav.services"></a></li>
+            <li><a href="../about.html" data-i18n="nav.about"></a></li>
+            <li><a href="../contact.html" data-i18n="nav.contact"></a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__col-title" data-i18n="contact.emailLabel"></p>
+          <ul class="footer__links">
+            <li><a href="tel:+34911234567" data-i18n="contact.phoneVal"></a></li>
+            <li><a href="mailto:info@feurichiberia.com" data-i18n="contact.emailVal"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright"></p>
+        <div class="footer__legal">
+          <a href="#" data-i18n="footer.privacy"></a>
+          <a href="#" data-i18n="footer.terms"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
