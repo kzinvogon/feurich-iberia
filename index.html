@@ -68,7 +68,11 @@
 
   <!-- Hero -->
   <section class="hero" id="home">
-    <div class="hero__bg"></div>
+    <div class="hero__bg">
+      <div class="hero__slide is-active" data-slide="0"></div>
+      <div class="hero__slide" data-slide="1"></div>
+      <div class="hero__slide" data-slide="2"></div>
+    </div>
     <div class="hero__content">
       <p class="hero__eyebrow" data-i18n="hero.eyebrow"></p>
       <h1 class="hero__title" data-i18n="hero.title"></h1>
@@ -77,6 +81,11 @@
         <a href="#collection" class="btn btn--gold" data-i18n="hero.cta"></a>
         <a href="contact.html" class="btn btn--outline" data-i18n="hero.secondary"></a>
       </div>
+    </div>
+    <div class="hero__dots" aria-hidden="true">
+      <button class="hero__dot is-active" data-dot="0"></button>
+      <button class="hero__dot" data-dot="1"></button>
+      <button class="hero__dot" data-dot="2"></button>
     </div>
     <div class="hero__scroll" aria-hidden="true">
       <span>Scroll</span>
@@ -389,5 +398,6 @@
   <script src="js/main.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/lightbox.js"></script>
+  <script src="js/hero-carousel.js"></script>
 </body>
 </html>

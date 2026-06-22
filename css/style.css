@@ -356,14 +356,39 @@ p { color: var(--text-muted); font-size: .97rem; }
   background-color: #0d0d0d;
 }
 
-/* Piano silhouette using CSS */
-.hero__bg::after {
-  content: '';
+.hero__slide {
   position: absolute;
   inset: 0;
-  background: url('../images/self-playing-sunburst.jpeg') center/cover no-repeat;
-  opacity: .3;
-  mix-blend-mode: luminosity;
+  background: center/cover no-repeat;
+  opacity: 0;
+  mix-blend-mode: var(--hero-img-blend, luminosity);
+  transition: opacity 1.4s ease;
+  will-change: opacity;
+}
+.hero__slide.is-active { opacity: var(--hero-img-opacity, .3); }
+
+.hero__dots {
+  position: absolute;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: .6rem;
+  z-index: 3;
+}
+.hero__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,.4);
+  cursor: pointer;
+  padding: 0;
+  transition: background .3s, transform .3s;
+}
+.hero__dot.is-active {
+  background: rgba(255,255,255,.95);
+  transform: scale(1.4);
 }
 
 .hero__content {

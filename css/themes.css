@@ -36,7 +36,9 @@ html[data-theme="familia"] .btn--gold:hover { background: var(--gold-dk); border
 /* ════════════════════════════════════════════════════════════
    1 · NOIR  (default — matches :root in style.css)
    ════════════════════════════════════════════════════════════ */
-html[data-theme="noir"] .hero__bg::after { background-image: url('../images/self-playing-sunburst.jpeg'); }
+html[data-theme="noir"] .hero__slide[data-slide="0"] { background-image: url('../images/self-playing-sunburst.jpeg'); }
+html[data-theme="noir"] .hero__slide[data-slide="1"] { background-image: url('../images/gold-leaf.jpeg'); }
+html[data-theme="noir"] .hero__slide[data-slide="2"] { background-image: url('../images/custom-led-upright.jpeg'); }
 
 /* ════════════════════════════════════════════════════════════
    Shared LIGHT-theme behaviour (galeria · hogar · publico · familia)
@@ -67,10 +69,10 @@ html[data-theme="publico"] .hero__bg, html[data-theme="familia"] .hero__bg {
     linear-gradient(to bottom, rgba(10,9,8,.72) 0%, rgba(10,9,8,0) 18%),
     linear-gradient(to bottom, rgba(10,9,8,.35) 0%, rgba(10,9,8,.55) 55%, rgba(10,9,8,.8) 100%);
 }
-html[data-theme="galeria"] .hero__bg::after, html[data-theme="hogar"] .hero__bg::after,
-html[data-theme="publico"] .hero__bg::after, html[data-theme="familia"] .hero__bg::after {
-  opacity: .9; mix-blend-mode: normal;
-}
+html[data-theme="galeria"],
+html[data-theme="hogar"],
+html[data-theme="publico"],
+html[data-theme="familia"] { --hero-img-opacity: .9; --hero-img-blend: normal; }
 
 /* ════════════════════════════════════════════════════════════
    2 · GALERÍA  — light editorial gallery, airy, range of pianos
@@ -91,7 +93,9 @@ html[data-theme="galeria"] {
 html[data-theme="galeria"] .section { padding: clamp(6rem, 12vw, 11rem) 0; }       /* extra whitespace */
 html[data-theme="galeria"] .gold-rule { width: 72px; }
 html[data-theme="galeria"] .collection-card { background: #fff; }
-html[data-theme="galeria"] .hero__bg::after { background-image: url('../images/self-playing-studio.jpeg'); }
+html[data-theme="galeria"] .hero__slide[data-slide="0"] { background-image: url('../images/self-playing-studio.jpeg'); }
+html[data-theme="galeria"] .hero__slide[data-slide="1"] { background-image: url('../images/luxury-grand-blue.jpeg'); }
+html[data-theme="galeria"] .hero__slide[data-slide="2"] { background-image: url('../images/crystal-inlay.jpeg'); }
 html[data-theme="galeria"] .collection-card__img--luxury     { background: linear-gradient(135deg, rgba(8,8,16,.25), rgba(8,8,16,.35)), url('../images/luxury-grand-blue.jpeg') center/cover no-repeat; }
 html[data-theme="galeria"] .collection-card__img--selfplaying { background: linear-gradient(135deg, rgba(8,8,16,.25), rgba(8,8,16,.35)), url('../images/self-playing-studio.jpeg') center/cover no-repeat; }
 html[data-theme="galeria"] .collection-card__img--grands     { background: linear-gradient(135deg, rgba(8,8,16,.25), rgba(8,8,16,.35)), url('../images/self-playing-sunburst.jpeg') center/cover no-repeat; }
@@ -119,7 +123,9 @@ html[data-theme="hogar"] .collection-card,
 html[data-theme="hogar"] .btn,
 html[data-theme="hogar"] .feature-block__visual,
 html[data-theme="hogar"] .service-item { border-radius: 12px; }
-html[data-theme="hogar"] .hero__bg::after { background-image: url('../images/self-playing-lifestyle.jpeg'); }
+html[data-theme="hogar"] .hero__slide[data-slide="0"] { background-image: url('../images/self-playing-lifestyle.jpeg'); }
+html[data-theme="hogar"] .hero__slide[data-slide="1"] { background-image: url('../images/self-playing-walnut.jpeg'); }
+html[data-theme="hogar"] .hero__slide[data-slide="2"] { background-image: url('../images/bespoke-lacquer.jpeg'); }
 html[data-theme="hogar"] .collection-card__img--luxury     { background: linear-gradient(135deg, rgba(40,25,12,.3), rgba(40,25,12,.45)), url('../images/self-playing-lifestyle.jpeg') center/cover no-repeat; }
 html[data-theme="hogar"] .collection-card__img--selfplaying { background: linear-gradient(135deg, rgba(40,25,12,.3), rgba(40,25,12,.45)), url('../images/self-playing-walnut.jpeg') center/cover no-repeat; }
 html[data-theme="hogar"] .collection-card__img--grands     { background: linear-gradient(135deg, rgba(40,25,12,.3), rgba(40,25,12,.45)), url('../images/bespoke-lacquer.jpeg') center/cover no-repeat; }
@@ -147,7 +153,9 @@ html[data-theme="publico"] .eyebrow { letter-spacing: .32em; }
 html[data-theme="publico"] .collection-card,
 html[data-theme="publico"] .btn,
 html[data-theme="publico"] .feature-block__visual { border-radius: 0; }            /* sharp / architectural */
-html[data-theme="publico"] .hero__bg::after { background-image: url('../images/luxury-grand-blue.jpeg'); }
+html[data-theme="publico"] .hero__slide[data-slide="0"] { background-image: url('../images/luxury-grand-blue.jpeg'); }
+html[data-theme="publico"] .hero__slide[data-slide="1"] { background-image: url('../images/custom-grand-mosaic.jpeg'); }
+html[data-theme="publico"] .hero__slide[data-slide="2"] { background-image: url('../images/self-playing-studio.jpeg'); }
 html[data-theme="publico"] .collection-card__img--luxury     { background: linear-gradient(135deg, rgba(12,22,34,.3), rgba(12,22,34,.45)), url('../images/luxury-grand-blue.jpeg') center/cover no-repeat; }
 html[data-theme="publico"] .collection-card__img--selfplaying { background: linear-gradient(135deg, rgba(12,22,34,.3), rgba(12,22,34,.45)), url('../images/custom-grand-mosaic.jpeg') center/cover no-repeat; }
 html[data-theme="publico"] .collection-card__img--grands     { background: linear-gradient(135deg, rgba(12,22,34,.3), rgba(12,22,34,.45)), url('../images/self-playing-studio.jpeg') center/cover no-repeat; }
@@ -176,7 +184,9 @@ html[data-theme="familia"] .service-item,
 html[data-theme="familia"] .feature-block__visual,
 html[data-theme="familia"] .model-card { border-radius: 20px; }
 html[data-theme="familia"] .gold-rule { width: 56px; height: 2px; }
-html[data-theme="familia"] .hero__bg::after { background-image: url('../images/custom-mosaic-upright.jpeg'); }
+html[data-theme="familia"] .hero__slide[data-slide="0"] { background-image: url('../images/custom-mosaic-upright.jpeg'); }
+html[data-theme="familia"] .hero__slide[data-slide="1"] { background-image: url('../images/self-playing-lifestyle.jpeg'); }
+html[data-theme="familia"] .hero__slide[data-slide="2"] { background-image: url('../images/self-playing-walnut.jpeg'); }
 html[data-theme="familia"] .collection-card__img--luxury     { background: linear-gradient(135deg, rgba(30,20,10,.22), rgba(30,20,10,.38)), url('../images/custom-mosaic-upright.jpeg') center/cover no-repeat; }
 html[data-theme="familia"] .collection-card__img--selfplaying { background: linear-gradient(135deg, rgba(30,20,10,.22), rgba(30,20,10,.38)), url('../images/self-playing-lifestyle.jpeg') center/cover no-repeat; }
 html[data-theme="familia"] .collection-card__img--grands     { background: linear-gradient(135deg, rgba(30,20,10,.22), rgba(30,20,10,.38)), url('../images/self-playing-studio.jpeg') center/cover no-repeat; }
@@ -203,7 +213,10 @@ html[data-theme="arte"] .gold-rule { transform: skewX(-18deg); width: 64px; heig
 html[data-theme="arte"] .btn--gold { background: linear-gradient(135deg, #e0529a 0%, #7b4fd6 100%); border-color: transparent; color: #fff; }
 html[data-theme="arte"] .btn--gold:hover { background: linear-gradient(135deg, #f07ab6 0%, #9168e0 100%); }
 html[data-theme="arte"] .eyebrow { color: var(--gold); }
-html[data-theme="arte"] .hero__bg::after { background-image: url('../images/custom-led-upright.jpeg'); opacity: .42; }
+html[data-theme="arte"] { --hero-img-opacity: .42; --hero-img-blend: normal; }
+html[data-theme="arte"] .hero__slide[data-slide="0"] { background-image: url('../images/custom-led-upright.jpeg'); }
+html[data-theme="arte"] .hero__slide[data-slide="1"] { background-image: url('../images/crystal-inlay.jpeg'); }
+html[data-theme="arte"] .hero__slide[data-slide="2"] { background-image: url('../images/gold-leaf.jpeg'); }
 html[data-theme="arte"] .collection-card__img--luxury     { background: linear-gradient(135deg, rgba(40,10,40,.35), rgba(20,10,50,.5)), url('../images/custom-led-upright.jpeg') center/cover no-repeat; }
 html[data-theme="arte"] .collection-card__img--selfplaying { background: linear-gradient(135deg, rgba(40,10,40,.35), rgba(20,10,50,.5)), url('../images/crystal-inlay.jpeg') center/cover no-repeat; }
 html[data-theme="arte"] .collection-card__img--grands     { background: linear-gradient(135deg, rgba(40,10,40,.35), rgba(20,10,50,.5)), url('../images/custom-grand-mosaic.jpeg') center/cover no-repeat; }
