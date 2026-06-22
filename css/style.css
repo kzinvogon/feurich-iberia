@@ -352,7 +352,7 @@ p { color: var(--text-muted); font-size: .97rem; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('images/piano-16.jpeg') center/cover no-repeat;
+  background: url('../images/piano-16.jpeg') center/cover no-repeat;
   opacity: .3;
   mix-blend-mode: luminosity;
 }
@@ -474,10 +474,10 @@ p { color: var(--text-muted); font-size: .97rem; }
   inset: 0;
   transition: transform .6s var(--ease);
 }
-.collection-card__img--luxury     { background: linear-gradient(135deg, #1a1207 0%, #2d2010 50%, #1a0f05 100%) url('images/piano-02.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
-.collection-card__img--selfplaying { background: linear-gradient(135deg, #07101a 0%, #0e1d2d 50%, #071018 100%) url('images/piano-05.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
-.collection-card__img--grands     { background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #0a0a0a 100%) url('images/piano-08.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
-.collection-card__img--custom     { background: linear-gradient(135deg, #0d1007 0%, #181f0e 50%, #0a0d05 100%) url('images/piano-11.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
+.collection-card__img--luxury     { background: linear-gradient(135deg, #1a1207 0%, #2d2010 50%, #1a0f05 100%) url('../images/piano-02.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
+.collection-card__img--selfplaying { background: linear-gradient(135deg, #07101a 0%, #0e1d2d 50%, #071018 100%) url('../images/piano-05.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
+.collection-card__img--grands     { background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #0a0a0a 100%) url('../images/piano-08.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
+.collection-card__img--custom     { background: linear-gradient(135deg, #0d1007 0%, #181f0e 50%, #0a0d05 100%) url('../images/piano-11.jpeg') center/cover no-repeat; background-blend-mode: multiply; }
 
 /* Decorative piano key suggestion */
 .collection-card__img::after {
@@ -767,7 +767,7 @@ p { color: var(--text-muted); font-size: .97rem; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: linear-gradient(145deg, #1a1209 0%, #0d0d0d 100%) url('images/piano-13.jpeg') center/cover no-repeat;
+  background: linear-gradient(145deg, #1a1209 0%, #0d0d0d 100%) url('../images/piano-13.jpeg') center/cover no-repeat;
   background-blend-mode: multiply;
 }
 .about__img-frame {
