@@ -9,7 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <script>try{var t=localStorage.getItem('fi_theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/themes.css">
 </head>
 <body>
 
@@ -33,6 +35,17 @@
       <a href="../about.html" class="nav__link" data-i18n="nav.about"></a>
       <a href="../contact.html" class="nav__link" data-i18n="nav.contact"></a>
       <a href="../gallery.html" class="nav__link" data-i18n="nav.gallery"></a>
+      <div class="nav__dropdown nav__theme">
+        <button class="nav__link nav__theme-trigger" type="button"><span data-i18n="theme.label">Theme</span> ▾</button>
+        <ul class="nav__dropdown-menu">
+          <li><button type="button" data-theme-btn="noir" data-i18n="theme.noir"></button></li>
+          <li><button type="button" data-theme-btn="galeria" data-i18n="theme.galeria"></button></li>
+          <li><button type="button" data-theme-btn="hogar" data-i18n="theme.hogar"></button></li>
+          <li><button type="button" data-theme-btn="publico" data-i18n="theme.publico"></button></li>
+          <li><button type="button" data-theme-btn="familia" data-i18n="theme.familia"></button></li>
+          <li><button type="button" data-theme-btn="arte" data-i18n="theme.arte"></button></li>
+        </ul>
+      </div>
       <div class="nav__lang">
         <button data-lang="en">EN</button>
         <button data-lang="es">ES</button>
@@ -163,5 +176,6 @@
 
   <script src="../js/i18n.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/theme.js"></script>
 </body>
 </html>

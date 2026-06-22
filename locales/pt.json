@@ -230,5 +230,14 @@
     "eyebrow": "Arquivo",
     "title": "Galeria de Imagens",
     "subtitle": "A coleção fotográfica completa da Feurich Iberia."
+  },
+  "theme": {
+    "label": "Tema",
+    "noir": "Noir",
+    "galeria": "Galeria",
+    "hogar": "Lar",
+    "publico": "Público",
+    "familia": "Família",
+    "arte": "Arte"
   }
 }
