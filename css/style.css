@@ -361,7 +361,7 @@ p { color: var(--text-muted); font-size: .97rem; }
   content: '';
   position: absolute;
   inset: 0;
-  background: url('../images/piano-16.jpeg') center/cover no-repeat;
+  background: url('../images/self-playing-sunburst.jpeg') center/cover no-repeat;
   opacity: .3;
   mix-blend-mode: luminosity;
 }
@@ -776,7 +776,7 @@ p { color: var(--text-muted); font-size: .97rem; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: linear-gradient(145deg, rgba(26,18,9,.35) 0%, rgba(13,13,13,.45) 100%), url('../images/piano-13.jpeg') center/cover no-repeat;
+  background: linear-gradient(145deg, rgba(26,18,9,.35) 0%, rgba(13,13,13,.45) 100%), url('../images/custom-grand-mosaic.jpeg') center/cover no-repeat;
 }
 .about__img-frame {
   position: absolute;

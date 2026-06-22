@@ -11,16 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
 function preloadImages() {
   const base = document.querySelector('meta[name="base-path"]')?.content || '';
   [
-    'images/piano-02.jpeg',
-    'images/piano-03.jpeg',
-    'images/piano-05.jpeg',
-    'images/piano-06.jpeg',
-    'images/piano-08.jpeg',
-    'images/piano-09.jpeg',
-    'images/piano-11.jpeg',
-    'images/piano-12.jpeg',
-    'images/piano-13.jpeg',
-    'images/piano-16.jpeg',
+    'images/self-playing-sunburst.jpeg',
+    'images/self-playing-walnut.jpeg',
+    'images/self-playing-lifestyle.jpeg',
+    'images/self-playing-studio.jpeg',
+    'images/luxury-grand-blue.jpeg',
+    'images/custom-mosaic-upright.jpeg',
+    'images/custom-grand-mosaic.jpeg',
   ].forEach(src => {
     const img = new Image();
     img.src = base + src;
