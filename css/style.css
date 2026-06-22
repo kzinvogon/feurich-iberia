@@ -947,6 +947,16 @@ p { color: var(--text-muted); font-size: .97rem; }
   position: relative;
   overflow: hidden;
 }
+.feature-block__visual img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .7s var(--ease);
+}
+.feature-block__visual:hover img { transform: scale(1.04); }
 .feature-block__visual--gold::before {
   content: '';
   position: absolute;
