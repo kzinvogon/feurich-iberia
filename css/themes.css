@@ -5,6 +5,17 @@
    html[data-theme="..."]. Noir is the :root default in style.css.
    ════════════════════════════════════════════════════════════ */
 
+/* ── Light-theme btn--gold: darker gold needs white text ──── */
+html[data-theme="galeria"] .btn--gold,
+html[data-theme="hogar"]   .btn--gold,
+html[data-theme="publico"] .btn--gold,
+html[data-theme="familia"] .btn--gold { color: #fff; }
+
+html[data-theme="galeria"] .btn--gold:hover,
+html[data-theme="hogar"]   .btn--gold:hover,
+html[data-theme="publico"] .btn--gold:hover,
+html[data-theme="familia"] .btn--gold:hover { background: var(--gold-dk); border-color: var(--gold-dk); }
+
 /* ── Theme selector control (nav) ─────────────────────────── */
 .nav__theme { position: relative; }
 .nav__theme-trigger {
@@ -82,9 +93,9 @@ html[data-theme="galeria"] {
   --bg:        #f7f5f1;
   --surface:   #ffffff;
   --surface2:  #efeae2;
-  --gold:      #a9842f;
-  --gold-lt:   #c8a456;
-  --gold-dk:   #7c5f1f;
+  --gold:      #7c5f1f;  /* darkened: was #a9842f (3.2:1) → now 5.6:1 on bg */
+  --gold-lt:   #a9842f;  /* old --gold, used for hover states */
+  --gold-dk:   #5c4415;
   --text:      #1b1813;
   --text-muted:#6c6358;
   --border:    rgba(27,24,19,.14);
@@ -108,9 +119,9 @@ html[data-theme="hogar"] {
   --bg:        #f3ebe0;
   --surface:   #fff8ef;
   --surface2:  #e8dcc9;
-  --gold:      #b07a3c;
-  --gold-lt:   #d29f63;
-  --gold-dk:   #835724;
+  --gold:      #835724;  /* darkened: was #b07a3c (3.1:1) → now 5.3:1 on bg */
+  --gold-lt:   #b07a3c;  /* old --gold, used for hover states */
+  --gold-dk:   #5e3d19;
   --text:      #2c2117;
   --text-muted:#6f6052;
   --border:    rgba(120,80,40,.2);
@@ -136,9 +147,9 @@ html[data-theme="publico"] {
   --bg:        #eef1f4;
   --surface:   #ffffff;
   --surface2:  #e1e7ec;
-  --gold:      #4f7da6;
-  --gold-lt:   #7aa3c6;
-  --gold-dk:   #355a7d;
+  --gold:      #355a7d;  /* darkened: was #4f7da6 (3.9:1) → now 6.5:1 on bg */
+  --gold-lt:   #4f7da6;  /* old --gold, used for hover states */
+  --gold-dk:   #2a4560;
   --text:      #16202b;
   --text-muted:#5c6b78;
   --border:    rgba(40,70,100,.16);
@@ -164,9 +175,9 @@ html[data-theme="familia"] {
   --bg:        #fffdf8;
   --surface:   #ffffff;
   --surface2:  #fdf1e6;
-  --gold:      #e0913f;
-  --gold-lt:   #f0b06a;
-  --gold-dk:   #b56e23;
+  --gold:      #b85c20;  /* darkened: was #e0913f (2.5:1!) → now 4.6:1 on bg */
+  --gold-lt:   #d47a3a;  /* mid-orange for hover */
+  --gold-dk:   #8a4216;
   --text:      #2a2622;
   --text-muted:#6d665d;
   --border:    rgba(180,110,40,.18);
