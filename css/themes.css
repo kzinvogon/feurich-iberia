@@ -29,7 +29,7 @@ html[data-theme="familia"] .btn--gold:hover { background: var(--gold-dk); border
   text-transform: uppercase; color: var(--text-muted);
   transition: color .2s, background .2s; cursor: none;
 }
-.nav__theme .nav__dropdown-menu button:hover { color: var(--gold); background: rgba(201,168,76,.05); }
+.nav__theme .nav__dropdown-menu button:hover { color: var(--gold); background: var(--surface2); }
 .nav__theme .nav__dropdown-menu button.active { color: var(--gold); }
 .nav__theme .nav__dropdown-menu button.active::before { content: '● '; font-size: .7em; }
 

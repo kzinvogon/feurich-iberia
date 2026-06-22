@@ -242,15 +242,15 @@ p { color: var(--text-muted); font-size: .97rem; }
   top: calc(100% + 1.2rem);
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(16,16,16,.98);
+  background: var(--surface);
   border: 1px solid var(--border);
+  box-shadow: 0 8px 28px rgba(0,0,0,.18);
   min-width: 220px;
   padding: .8rem 0;
   opacity: 0;
   pointer-events: none;
   transition: opacity .25s, transform .25s var(--ease);
   transform: translateX(-50%) translateY(-6px);
-  backdrop-filter: blur(12px);
 }
 .nav__dropdown-menu::before {
   content: '';
@@ -260,7 +260,7 @@ p { color: var(--text-muted); font-size: .97rem; }
   transform: translateX(-50%);
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 5px solid var(--border);
+  border-bottom: 5px solid var(--surface);
 }
 /* Transparent bridge over the gap so the menu stays hoverable */
 .nav__dropdown-menu::after {
@@ -286,7 +286,7 @@ p { color: var(--text-muted); font-size: .97rem; }
   color: var(--text-muted);
   transition: color .2s, background .2s;
 }
-.nav__dropdown-menu a:hover { color: var(--gold); background: rgba(201,168,76,.05); }
+.nav__dropdown-menu a:hover { color: var(--gold); background: var(--surface2); }
 
 .nav__lang {
   display: flex;
