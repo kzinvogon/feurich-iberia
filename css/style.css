@@ -262,6 +262,15 @@ p { color: var(--text-muted); font-size: .97rem; }
   border-right: 5px solid transparent;
   border-bottom: 5px solid var(--border);
 }
+/* Transparent bridge over the gap so the menu stays hoverable */
+.nav__dropdown-menu::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1.4rem;
+  height: 1.4rem;
+}
 .nav__dropdown:hover .nav__dropdown-menu,
 .nav__dropdown:focus-within .nav__dropdown-menu {
   opacity: 1;
