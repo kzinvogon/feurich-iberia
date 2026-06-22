@@ -30,6 +30,9 @@ const Theme = (() => {
       if (btn) {
         e.preventDefault();
         apply(btn.dataset.themeBtn);
+        // Show the chosen theme on the home page (theme persists via localStorage)
+        const base = document.querySelector('meta[name="base-path"]')?.content || '';
+        window.location.href = base + 'index.html';
       }
     });
   }
