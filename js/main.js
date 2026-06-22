@@ -6,7 +6,19 @@ document.addEventListener('DOMContentLoaded', () => {
   initCustomCursor();
   initCounters();
   initMobileMenu();
+  initInterestPrefill();
 });
+
+// Pre-select the contact form's "Area of Interest" from a ?interest= link
+// (e.g. the "commission" CTA links to contact.html?interest=custom)
+function initInterestPrefill() {
+  const select = document.getElementById('interest');
+  if (!select) return;
+  const interest = new URLSearchParams(window.location.search).get('interest');
+  if (interest && [...select.options].some(o => o.value === interest)) {
+    select.value = interest;
+  }
+}
 
 function preloadImages() {
   const base = document.querySelector('meta[name="base-path"]')?.content || '';
