@@ -12,7 +12,8 @@
     "journey": "Our Process",
     "about": "About",
     "contact": "Contact",
-    "bookConsultation": "Book Consultation"
+    "bookConsultation": "Book Consultation",
+    "gallery": "Gallery"
   },
   "hero": {
     "eyebrow": "Vienna Craftsmanship · Iberian Passion",
@@ -224,5 +225,10 @@
     "galleryCap1": "Illuminated LED artistry",
     "galleryCap2": "Hand-finished mosaic",
     "galleryCap3": "Bespoke grand · mosaic finish"
+  },
+  "gallery": {
+    "eyebrow": "Archive",
+    "title": "Image Gallery",
+    "subtitle": "The complete Feurich Iberia photography collection."
   }
 }

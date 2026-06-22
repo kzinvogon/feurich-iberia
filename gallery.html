@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="base-path" content="">
+  <title>Gallery — Feurich Iberia</title>
+  <meta name="description" content="Image archive — the full Feurich Iberia photography collection.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5px; background: var(--border); margin-top: 3rem; }
+    .archive-grid figure { position: relative; overflow: hidden; aspect-ratio: 4/3; background: var(--surface); }
+    .archive-grid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .7s var(--ease); }
+    .archive-grid figure:hover img { transform: scale(1.05); }
+    .archive-grid figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.3rem 1rem .8rem; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text); background: linear-gradient(to top, rgba(8,8,8,.9) 0%, transparent 100%); }
+  </style>
+</head>
+<body>
+
+  <nav id="nav">
+    <a href="index.html" class="nav__logo">Feurich<span>Iberia</span></a>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav__menu" id="nav-menu">
+      <div class="nav__dropdown">
+        <a href="index.html#collection" class="nav__link" data-i18n="nav.collection">Collection</a>
+        <ul class="nav__dropdown-menu">
+          <li><a href="collection/luxury.html" data-i18n="nav.luxury"></a></li>
+          <li><a href="collection/self-playing.html" data-i18n="nav.selfPlaying"></a></li>
+          <li><a href="collection/grand-uprights.html" data-i18n="nav.grandUprights"></a></li>
+          <li><a href="collection/custom-design.html" data-i18n="nav.customDesign"></a></li>
+        </ul>
+      </div>
+      <a href="index.html#services" class="nav__link" data-i18n="nav.services"></a>
+      <a href="index.html#journey" class="nav__link" data-i18n="nav.journey"></a>
+      <a href="about.html" class="nav__link" data-i18n="nav.about"></a>
+      <a href="contact.html" class="nav__link" data-i18n="nav.contact"></a>
+      <a href="gallery.html" class="nav__link" data-i18n="nav.gallery"></a>
+      <div class="nav__lang">
+        <button data-lang="en">EN</button>
+        <button data-lang="es">ES</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="pt">PT</button>
+      </div>
+      <a href="contact.html" class="nav__book" data-i18n="nav.bookConsultation"></a>
+    </div>
+  </nav>
+
+  <header class="sub-hero sub-hero--grands">
+    <div class="sub-hero__bg"></div>
+    <div class="container sub-hero__content">
+      <p class="eyebrow" data-i18n="gallery.eyebrow"></p>
+      <div class="gold-rule"></div>
+      <h1 data-i18n="gallery.title"></h1>
+      <p class="lead" data-i18n="gallery.subtitle"></p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="archive-grid" data-reveal>
+        <figure><img src="unused-images/piano-01.jpeg" alt="Feurich piano 01" loading="lazy"><figcaption>piano-01</figcaption></figure>
+        <figure><img src="unused-images/piano-02.jpeg" alt="Feurich piano 02" loading="lazy"><figcaption>piano-02</figcaption></figure>
+        <figure><img src="unused-images/piano-03.jpeg" alt="Feurich piano 03" loading="lazy"><figcaption>piano-03</figcaption></figure>
+        <figure><img src="unused-images/piano-04.jpeg" alt="Feurich piano 04" loading="lazy"><figcaption>piano-04</figcaption></figure>
+        <figure><img src="unused-images/piano-05.jpeg" alt="Feurich piano 05" loading="lazy"><figcaption>piano-05</figcaption></figure>
+        <figure><img src="unused-images/piano-06.jpeg" alt="Feurich piano 06" loading="lazy"><figcaption>piano-06</figcaption></figure>
+        <figure><img src="unused-images/piano-07.jpeg" alt="Feurich piano 07" loading="lazy"><figcaption>piano-07</figcaption></figure>
+        <figure><img src="unused-images/piano-08.jpeg" alt="Feurich piano 08" loading="lazy"><figcaption>piano-08</figcaption></figure>
+        <figure><img src="unused-images/piano-09.jpeg" alt="Feurich piano 09" loading="lazy"><figcaption>piano-09</figcaption></figure>
+        <figure><img src="unused-images/piano-10.jpeg" alt="Feurich piano 10" loading="lazy"><figcaption>piano-10</figcaption></figure>
+        <figure><img src="unused-images/piano-11.jpeg" alt="Feurich piano 11" loading="lazy"><figcaption>piano-11</figcaption></figure>
+        <figure><img src="unused-images/piano-12.jpeg" alt="Feurich piano 12" loading="lazy"><figcaption>piano-12</figcaption></figure>
+        <figure><img src="unused-images/piano-13.jpeg" alt="Feurich piano 13" loading="lazy"><figcaption>piano-13</figcaption></figure>
+        <figure><img src="unused-images/piano-14.jpeg" alt="Feurich piano 14" loading="lazy"><figcaption>piano-14</figcaption></figure>
+        <figure><img src="unused-images/piano-15.jpeg" alt="Feurich piano 15" loading="lazy"><figcaption>piano-15</figcaption></figure>
+        <figure><img src="unused-images/piano-16.jpeg" alt="Feurich piano 16" loading="lazy"><figcaption>piano-16</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer__bottom">
+        <p class="footer__copyright" data-i18n="footer.copyright"></p>
+        <div class="footer__legal">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

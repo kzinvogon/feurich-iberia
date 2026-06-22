@@ -12,7 +12,8 @@
     "journey": "Notre Processus",
     "about": "À Propos",
     "contact": "Contact",
-    "bookConsultation": "Réserver une Consultation"
+    "bookConsultation": "Réserver une Consultation",
+    "gallery": "Galerie"
   },
   "hero": {
     "eyebrow": "Savoir-Faire Viennois · Passion Ibérique",
@@ -224,5 +225,10 @@
     "galleryCap1": "Art LED illuminé",
     "galleryCap2": "Mosaïque finie à la main",
     "galleryCap3": "Queue sur mesure · mosaïque"
+  },
+  "gallery": {
+    "eyebrow": "Archives",
+    "title": "Galerie d’Images",
+    "subtitle": "La collection photographique complète de Feurich Iberia."
   }
 }

@@ -12,7 +12,8 @@
     "journey": "Nuestro Proceso",
     "about": "Quiénes Somos",
     "contact": "Contacto",
-    "bookConsultation": "Reservar Consulta"
+    "bookConsultation": "Reservar Consulta",
+    "gallery": "Galería"
   },
   "hero": {
     "eyebrow": "Artesanía Vienesa · Pasión Ibérica",
@@ -224,5 +225,10 @@
     "galleryCap1": "Arte LED iluminado",
     "galleryCap2": "Mosaico acabado a mano",
     "galleryCap3": "Cola a medida · acabado en mosaico"
+  },
+  "gallery": {
+    "eyebrow": "Archivo",
+    "title": "Galería de Imágenes",
+    "subtitle": "La colección fotográfica completa de Feurich Iberia."
   }
 }

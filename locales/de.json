@@ -12,7 +12,8 @@
     "journey": "Unser Prozess",
     "about": "Über uns",
     "contact": "Kontakt",
-    "bookConsultation": "Beratung buchen"
+    "bookConsultation": "Beratung buchen",
+    "gallery": "Galerie"
   },
   "hero": {
     "eyebrow": "Wiener Handwerkskunst · Iberische Leidenschaft",
@@ -224,5 +225,10 @@
     "galleryCap1": "Beleuchtete LED-Kunst",
     "galleryCap2": "Handveredeltes Mosaik",
     "galleryCap3": "Maßgefertigter Flügel · Mosaik"
+  },
+  "gallery": {
+    "eyebrow": "Archiv",
+    "title": "Bildergalerie",
+    "subtitle": "Die vollständige Fotosammlung von Feurich Iberia."
   }
 }
