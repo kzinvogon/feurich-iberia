@@ -44,27 +44,11 @@ html[data-theme="noir"] .hero__bg::after { background-image: url('../images/self
    the nav legible over both the dark hero (top) and the light page
    (scrolled).
    ════════════════════════════════════════════════════════════ */
-html[data-theme="galeria"] #nav.nav--scrolled,
-html[data-theme="hogar"]   #nav.nav--scrolled,
-html[data-theme="publico"] #nav.nav--scrolled,
-html[data-theme="familia"] #nav.nav--scrolled { background: rgba(255,255,255,.94); backdrop-filter: blur(12px); }
-
-html[data-theme="galeria"] #nav:not(.nav--scrolled) .nav__link,
-html[data-theme="galeria"] #nav:not(.nav--scrolled) .nav__logo,
-html[data-theme="galeria"] #nav:not(.nav--scrolled) .nav__book,
-html[data-theme="galeria"] #nav:not(.nav--scrolled) .nav__lang button,
-html[data-theme="hogar"]   #nav:not(.nav--scrolled) .nav__link,
-html[data-theme="hogar"]   #nav:not(.nav--scrolled) .nav__logo,
-html[data-theme="hogar"]   #nav:not(.nav--scrolled) .nav__book,
-html[data-theme="hogar"]   #nav:not(.nav--scrolled) .nav__lang button,
-html[data-theme="publico"] #nav:not(.nav--scrolled) .nav__link,
-html[data-theme="publico"] #nav:not(.nav--scrolled) .nav__logo,
-html[data-theme="publico"] #nav:not(.nav--scrolled) .nav__book,
-html[data-theme="publico"] #nav:not(.nav--scrolled) .nav__lang button,
-html[data-theme="familia"] #nav:not(.nav--scrolled) .nav__link,
-html[data-theme="familia"] #nav:not(.nav--scrolled) .nav__logo,
-html[data-theme="familia"] #nav:not(.nav--scrolled) .nav__book,
-html[data-theme="familia"] #nav:not(.nav--scrolled) .nav__lang button { color: #f4efe6; }
+/* Light themes: frosted white nav always — hero images are too bright for transparent nav */
+html[data-theme="galeria"] #nav,
+html[data-theme="hogar"]   #nav,
+html[data-theme="publico"] #nav,
+html[data-theme="familia"] #nav { background: rgba(255,255,255,.92); backdrop-filter: blur(12px); }
 
 /* Hero + sub-hero text stays light over the dark image scrim on light themes */
 html[data-theme="galeria"] .hero__title, html[data-theme="hogar"] .hero__title,
@@ -79,7 +63,9 @@ html[data-theme="publico"] .sub-hero__content .lead, html[data-theme="familia"] 
 /* Stronger scrim so the hero photo reads with light text on light themes */
 html[data-theme="galeria"] .hero__bg, html[data-theme="hogar"] .hero__bg,
 html[data-theme="publico"] .hero__bg, html[data-theme="familia"] .hero__bg {
-  background: linear-gradient(to bottom, rgba(10,9,8,.35) 0%, rgba(10,9,8,.55) 55%, rgba(10,9,8,.8) 100%);
+  background:
+    linear-gradient(to bottom, rgba(10,9,8,.72) 0%, rgba(10,9,8,0) 18%),
+    linear-gradient(to bottom, rgba(10,9,8,.35) 0%, rgba(10,9,8,.55) 55%, rgba(10,9,8,.8) 100%);
 }
 html[data-theme="galeria"] .hero__bg::after, html[data-theme="hogar"] .hero__bg::after,
 html[data-theme="publico"] .hero__bg::after, html[data-theme="familia"] .hero__bg::after {
