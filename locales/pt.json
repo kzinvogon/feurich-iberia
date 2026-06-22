@@ -179,7 +179,11 @@
     "libraryTitle": "Um Repertório Infinito",
     "libraryText": "Aceda a milhares de interpretações de pianistas profissionais, transmita novas gravações ou carregue os seus próprios ficheiros MIDI. De Bach a Gershwin — o repertório é ilimitado.",
     "whyTitle": "O Investimento Troféu",
-    "whyText": "Um Feurich autotocante é a peça central definitiva — um objeto de luxo que é também um sistema de entretenimento completo, uma ferramenta pedagógica, um instrumento de gravação e uma peça de conversa sem igual."
+    "whyText": "Um Feurich autotocante é a peça central definitiva — um objeto de luxo que é também um sistema de entretenimento completo, uma ferramenta pedagógica, um instrumento de gravação e uma peça de conversa sem igual.",
+    "galleryTitle": "A Coleção",
+    "galleryCap1": "Pianoforce — integrado de forma invisível",
+    "galleryCap2": "Em casa, sob a luz",
+    "galleryCap3": "Nogueira · edição pôr do sol"
   },
   "grandUprightsPage": {
     "heroEyebrow": "Caudas e Verticais",
@@ -215,6 +219,10 @@
     "what5": "Incrustações e marchetaria — elementos decorativos feitos à mão",
     "what6": "Componentes internos — mecânicas Renner premium, qualidades de martelo, calibres de corda",
     "processTitle": "O Processo de Encomenda",
-    "processCta": "Iniciar a sua Encomenda"
+    "processCta": "Iniciar a sua Encomenda",
+    "galleryTitle": "Criações Sob Medida",
+    "galleryCap1": "Arte LED iluminada",
+    "galleryCap2": "Mosaico acabado à mão",
+    "galleryCap3": "Cauda sob medida · mosaico"
   }
 }

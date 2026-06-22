@@ -179,7 +179,11 @@
     "libraryTitle": "An Infinite Repertoire",
     "libraryText": "Access thousands of performances from professional pianists, stream new recordings, or upload your own MIDI files. From Bach to Gershwin, from private recordings to concert premieres — the repertoire is limitless.",
     "whyTitle": "The Trophy Investment",
-    "whyText": "A self-playing Feurich is the ultimate statement piece — a luxury object that is also a complete entertainment system, a teaching aid, a recording instrument, and a conversation piece without equal. For hotels, private residences, showrooms and yachts, it is simply incomparable."
+    "whyText": "A self-playing Feurich is the ultimate statement piece — a luxury object that is also a complete entertainment system, a teaching aid, a recording instrument, and a conversation piece without equal. For hotels, private residences, showrooms and yachts, it is simply incomparable.",
+    "galleryTitle": "The Collection",
+    "galleryCap1": "Pianoforce — integrated invisibly",
+    "galleryCap2": "At home in the light",
+    "galleryCap3": "Walnut · sunset edition"
   },
   "grandUprightsPage": {
     "heroEyebrow": "Grands & Uprights",
@@ -215,6 +219,10 @@
     "what5": "Inlay and marquetry — hand-crafted decorative elements",
     "what6": "Internal components — premium Renner actions, hammer grades, string gauges",
     "processTitle": "The Commission Process",
-    "processCta": "Begin Your Commission"
+    "processCta": "Begin Your Commission",
+    "galleryTitle": "Bespoke Creations",
+    "galleryCap1": "Illuminated LED artistry",
+    "galleryCap2": "Hand-finished mosaic",
+    "galleryCap3": "Bespoke grand · mosaic finish"
   }
 }

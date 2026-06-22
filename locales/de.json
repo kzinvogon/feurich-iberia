@@ -179,7 +179,11 @@
     "libraryTitle": "Ein unendliches Repertoire",
     "libraryText": "Greifen Sie auf Tausende von Interpretationen professioneller Pianisten zu, streamen Sie neue Aufnahmen oder laden Sie Ihre eigenen MIDI-Dateien hoch. Von Bach bis Gershwin — das Repertoire ist grenzenlos.",
     "whyTitle": "Die Trophäen-Investition",
-    "whyText": "Ein selbstspielendes Feurich ist das ultimative Statement-Stück — ein Luxusobjekt, das auch ein komplettes Unterhaltungssystem, ein Lehrwerkzeug, ein Aufnahmeinstrument und ein Gesprächsstück ohne Gleichen ist."
+    "whyText": "Ein selbstspielendes Feurich ist das ultimative Statement-Stück — ein Luxusobjekt, das auch ein komplettes Unterhaltungssystem, ein Lehrwerkzeug, ein Aufnahmeinstrument und ein Gesprächsstück ohne Gleichen ist.",
+    "galleryTitle": "Die Kollektion",
+    "galleryCap1": "Pianoforce — unsichtbar integriert",
+    "galleryCap2": "Zuhause im Licht",
+    "galleryCap3": "Nussbaum · Sonnenuntergang-Edition"
   },
   "grandUprightsPage": {
     "heroEyebrow": "Flügel & Klaviere",
@@ -215,6 +219,10 @@
     "what5": "Intarsien und Marketerie — handgefertigte Dekorationselemente",
     "what6": "Innere Komponenten — Premium-Renner-Mechaniken, Hammergüten, Saitenstärken",
     "processTitle": "Der Auftragsprozess",
-    "processCta": "Auftrag beginnen"
+    "processCta": "Auftrag beginnen",
+    "galleryTitle": "Maßgefertigte Kreationen",
+    "galleryCap1": "Beleuchtete LED-Kunst",
+    "galleryCap2": "Handveredeltes Mosaik",
+    "galleryCap3": "Maßgefertigter Flügel · Mosaik"
   }
 }

@@ -179,7 +179,11 @@
     "libraryTitle": "Un Répertoire Infini",
     "libraryText": "Accédez à des milliers d'interprétations de pianistes professionnels, diffusez de nouveaux enregistrements ou téléchargez vos propres fichiers MIDI. De Bach à Gershwin — le répertoire est illimité.",
     "whyTitle": "L'Investissement Trophée",
-    "whyText": "Un Feurich automate est la pièce maîtresse ultime — un objet de luxe qui est aussi un système de divertissement complet, un outil pédagogique, un instrument d'enregistrement et une pièce de conversation sans égal."
+    "whyText": "Un Feurich automate est la pièce maîtresse ultime — un objet de luxe qui est aussi un système de divertissement complet, un outil pédagogique, un instrument d'enregistrement et une pièce de conversation sans égal.",
+    "galleryTitle": "La Collection",
+    "galleryCap1": "Pianoforce — intégré invisiblement",
+    "galleryCap2": "Chez soi, dans la lumière",
+    "galleryCap3": "Noyer · édition crépuscule"
   },
   "grandUprightsPage": {
     "heroEyebrow": "Queues & Droits",
@@ -215,6 +219,10 @@
     "what5": "Incrustation et marqueterie — éléments décoratifs fabriqués à la main",
     "what6": "Composants internes — mécaniques Renner premium, qualités de marteaux, jauges de cordes",
     "processTitle": "Le Processus de Commission",
-    "processCta": "Commencer Votre Commission"
+    "processCta": "Commencer Votre Commission",
+    "galleryTitle": "Créations Sur Mesure",
+    "galleryCap1": "Art LED illuminé",
+    "galleryCap2": "Mosaïque finie à la main",
+    "galleryCap3": "Queue sur mesure · mosaïque"
   }
 }
