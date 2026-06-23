@@ -20,7 +20,39 @@
     "title": "Onde a Música\nEncontra a Mestria",
     "subtitle": "Representante exclusivo Feurich para Espanha e Portugal",
     "cta": "Descobrir a Coleção",
-    "secondary": "Reservar uma Consulta Privada"
+    "secondary": "Reservar uma Consulta Privada",
+    "themes": {
+      "noir": {
+        "eyebrow": "Artesanato Vienense · Paixão Ibérica",
+        "title": "Onde a Música\nEncontra a Mestria",
+        "subtitle": "Representante exclusivo Feurich para Espanha e Portugal"
+      },
+      "galeria": {
+        "eyebrow": "Excelência Curada",
+        "title": "O Piano\ncomo Arte",
+        "subtitle": "Uma seleção editorial dos instrumentos mais extraordinários do mundo"
+      },
+      "hogar": {
+        "eyebrow": "Pianos para o Lar",
+        "title": "A Música\nVive Aqui",
+        "subtitle": "Caloroso, pessoal e criado para elevar cada espaço"
+      },
+      "publico": {
+        "eyebrow": "Para Espaços Públicos",
+        "title": "Instrumentos\nque Impressionam",
+        "subtitle": "Salas de concerto, hotéis, centros culturais — Feurich actua a toda a escala"
+      },
+      "familia": {
+        "eyebrow": "Para Famílias e Estudantes",
+        "title": "Comece a Sua\nViagem Musical",
+        "subtitle": "Instrumentos excepcionais em todos os níveis, para uma vida de música"
+      },
+      "arte": {
+        "eyebrow": "O Piano como Declaração",
+        "title": "Ousado.\nBrilhante.\nÚnico.",
+        "subtitle": "Onde os limites do design pianístico se dissolvem em expressão artística pura"
+      }
+    }
   },
   "brandIntro": {
     "eyebrow": "Fund. 1851 · Viena, Áustria",

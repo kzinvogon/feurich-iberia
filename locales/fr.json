@@ -20,7 +20,39 @@
     "title": "Là où la Musique\nRencontre la Maîtrise",
     "subtitle": "Représentant exclusif Feurich pour l'Espagne et le Portugal",
     "cta": "Découvrir la Collection",
-    "secondary": "Réserver une Consultation Privée"
+    "secondary": "Réserver une Consultation Privée",
+    "themes": {
+      "noir": {
+        "eyebrow": "Savoir-Faire Viennois · Passion Ibérique",
+        "title": "Là où la Musique\nRencontre la Maîtrise",
+        "subtitle": "Représentant exclusif Feurich pour l'Espagne et le Portugal"
+      },
+      "galeria": {
+        "eyebrow": "Excellence Curatée",
+        "title": "Le Piano\nComme Œuvre d'Art",
+        "subtitle": "Une sélection éditoriale des instruments les plus extraordinaires du monde"
+      },
+      "hogar": {
+        "eyebrow": "Pianos pour la Maison",
+        "title": "La Musique\nVit Ici",
+        "subtitle": "Chaleureux, personnel et conçu pour sublimer chaque espace de vie"
+      },
+      "publico": {
+        "eyebrow": "Pour les Espaces Publics",
+        "title": "Des Instruments\nqui Impressionnent",
+        "subtitle": "Salles de concert, hôtels, centres culturels — Feurich performe à toute échelle"
+      },
+      "familia": {
+        "eyebrow": "Pour les Familles & Étudiants",
+        "title": "Commencez Votre\nVoyage Musical",
+        "subtitle": "Des instruments exceptionnels à chaque niveau, pour une vie de musique"
+      },
+      "arte": {
+        "eyebrow": "Le Piano Comme Déclaration",
+        "title": "Audacieux.\nBrillant.\nUnique.",
+        "subtitle": "Là où les frontières du design pianistique se dissolvent dans l'expression artistique"
+      }
+    }
   },
   "brandIntro": {
     "eyebrow": "Fond. 1851 · Vienne, Autriche",

@@ -20,7 +20,39 @@
     "title": "Where Music\nMeets Mastery",
     "subtitle": "Exclusive Feurich Piano representative for Spain and Portugal",
     "cta": "Discover the Collection",
-    "secondary": "Book a Private Consultation"
+    "secondary": "Book a Private Consultation",
+    "themes": {
+      "noir": {
+        "eyebrow": "Vienna Craftsmanship · Iberian Passion",
+        "title": "Where Music\nMeets Mastery",
+        "subtitle": "Exclusive Feurich Piano representative for Spain and Portugal"
+      },
+      "galeria": {
+        "eyebrow": "Curated Excellence",
+        "title": "The Piano\nas Fine Art",
+        "subtitle": "An editorial selection of the world's most extraordinary instruments"
+      },
+      "hogar": {
+        "eyebrow": "Pianos for the Home",
+        "title": "Music Lives\nHere",
+        "subtitle": "Warm, personal and crafted to elevate every living space"
+      },
+      "publico": {
+        "eyebrow": "For Public Spaces",
+        "title": "Instruments\nBuilt to Impress",
+        "subtitle": "Concert halls, hotels, cultural centres — Feurich performs at every scale"
+      },
+      "familia": {
+        "eyebrow": "For Families & Students",
+        "title": "Begin Your\nMusical Journey",
+        "subtitle": "Exceptional instruments at every level, built to inspire a lifetime of music"
+      },
+      "arte": {
+        "eyebrow": "Piano as Statement",
+        "title": "Bold.\nBrilliant.\nBespoke.",
+        "subtitle": "Where the boundaries of piano design dissolve into pure artistic expression"
+      }
+    }
   },
   "brandIntro": {
     "eyebrow": "Est. 1851 · Vienna, Austria",

@@ -20,7 +20,39 @@
     "title": "Wo Musik auf\nMeisterschaft trifft",
     "subtitle": "Exklusiver Feurich-Vertreter für Spanien und Portugal",
     "cta": "Kollektion entdecken",
-    "secondary": "Private Beratung buchen"
+    "secondary": "Private Beratung buchen",
+    "themes": {
+      "noir": {
+        "eyebrow": "Wiener Handwerkskunst · Iberische Leidenschaft",
+        "title": "Wo Musik auf\nMeisterschaft trifft",
+        "subtitle": "Exklusiver Feurich-Vertreter für Spanien und Portugal"
+      },
+      "galeria": {
+        "eyebrow": "Kuratierte Exzellenz",
+        "title": "Das Klavier\nals Kunstwerk",
+        "subtitle": "Eine redaktionelle Auswahl der außergewöhnlichsten Instrumente der Welt"
+      },
+      "hogar": {
+        "eyebrow": "Klaviere für Zuhause",
+        "title": "Musik Lebt\nHier",
+        "subtitle": "Warm, persönlich und gestaltet, um jeden Wohnraum zu bereichern"
+      },
+      "publico": {
+        "eyebrow": "Für Öffentliche Räume",
+        "title": "Instrumente\ndie Beeindrucken",
+        "subtitle": "Konzertsäle, Hotels, Kulturzentren — Feurich spielt in jeder Größenordnung"
+      },
+      "familia": {
+        "eyebrow": "Für Familien & Schüler",
+        "title": "Beginne Deine\nMusikalische Reise",
+        "subtitle": "Außergewöhnliche Instrumente auf jedem Niveau, für ein Leben voller Musik"
+      },
+      "arte": {
+        "eyebrow": "Klavier als Statement",
+        "title": "Kühn.\nGlänzend.\nEinzigartig.",
+        "subtitle": "Wo die Grenzen des Klavierdesigns in reinen künstlerischen Ausdruck übergehen"
+      }
+    }
   },
   "brandIntro": {
     "eyebrow": "Gegr. 1851 · Wien, Österreich",

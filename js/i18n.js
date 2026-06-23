@@ -70,5 +70,5 @@ const I18n = (() => {
     });
   }
 
-  return { init, load, resolve, get current() { return current; } };
+  return { init, load, resolve, apply, get current() { return current; } };
 })();

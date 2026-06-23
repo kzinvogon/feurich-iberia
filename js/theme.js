@@ -14,6 +14,16 @@ const Theme = (() => {
     document.documentElement.dataset.theme = theme;
     localStorage.setItem('fi_theme', theme);
     updateSwitcher();
+    updateHeroKeys(theme);
+  }
+
+  function updateHeroKeys(theme) {
+    var fields = { '.hero__eyebrow': 'eyebrow', '.hero__title': 'title', '.hero__subtitle': 'subtitle' };
+    Object.keys(fields).forEach(function (sel) {
+      var el = document.querySelector(sel);
+      if (el) el.dataset.i18n = 'hero.themes.' + theme + '.' + fields[sel];
+    });
+    if (typeof I18n !== 'undefined' && I18n.apply) I18n.apply();
   }
 
   function updateSwitcher() {
