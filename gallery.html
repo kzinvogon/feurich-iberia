@@ -13,11 +13,156 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/themes.css">
   <style>
-    .archive-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5px; background: var(--border); margin-top: 3rem; }
-    .archive-grid figure { position: relative; overflow: hidden; aspect-ratio: 4/3; background: var(--surface); }
-    .archive-grid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .7s var(--ease); }
+    /* ── Gallery grid ── */
+    .archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5px;
+      background: var(--border);
+      margin-top: 2rem;
+    }
+    .archive-grid figure {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 4/3;
+      background: var(--surface);
+      transition: opacity .35s, transform .35s;
+    }
+    .archive-grid figure.is-hidden {
+      display: none;
+    }
+    .archive-grid img {
+      width: 100%; height: 100%; object-fit: cover; display: block;
+      transition: transform .7s var(--ease);
+    }
     .archive-grid figure:hover img { transform: scale(1.05); }
-    .archive-grid figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.3rem 1rem .8rem; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; color: var(--text); background: linear-gradient(to top, rgba(8,8,8,.9) 0%, transparent 100%); }
+    .archive-grid figcaption {
+      position: absolute; left: 0; right: 0; bottom: 0;
+      padding: 1.3rem 1rem .8rem;
+      font-size: .62rem; letter-spacing: .12em; text-transform: uppercase;
+      color: #f4efe6;
+      background: linear-gradient(to top, rgba(8,8,8,.85) 0%, transparent 100%);
+    }
+
+    /* ── Filter bar ── */
+    .gf-bar {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 1.5rem 0 0;
+    }
+    .gf-bar__label {
+      font-size: .7rem;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+    .gf {
+      position: relative;
+    }
+    .gf__trigger {
+      display: flex;
+      align-items: center;
+      gap: .45rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: .78rem;
+      letter-spacing: .06em;
+      padding: .55rem 1rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: border-color .2s, background .2s;
+    }
+    .gf__trigger:hover { border-color: var(--gold); }
+    .gf__trigger.is-active { border-color: var(--gold); background: var(--surface2); }
+    .gf__active-val {
+      color: var(--gold);
+      font-weight: 500;
+    }
+    .gf__caret { font-size: .6rem; opacity: .6; transition: transform .2s; }
+    .gf.is-open .gf__caret { transform: rotate(180deg); }
+
+    .gf__menu {
+      position: absolute;
+      top: calc(100% + 4px);
+      left: 0;
+      min-width: 190px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: 0 6px 24px rgba(0,0,0,.14);
+      list-style: none;
+      padding: .5rem 0;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-6px);
+      transition: opacity .2s, transform .2s;
+      z-index: 50;
+    }
+    .gf.is-open .gf__menu {
+      opacity: 1;
+      pointer-events: all;
+      transform: translateY(0);
+    }
+    .gf__menu button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      padding: .55rem 1.1rem;
+      font-family: var(--sans);
+      font-size: .78rem;
+      color: var(--text);
+      cursor: pointer;
+      transition: background .15s, color .15s;
+    }
+    .gf__menu button:hover { background: var(--surface2); }
+    .gf__menu button.is-selected { color: var(--gold); }
+
+    .gf__clear {
+      background: none;
+      border: none;
+      font-family: var(--sans);
+      font-size: .72rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: .5rem .2rem;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .2s, color .2s;
+    }
+    .gf__clear.is-visible { opacity: 1; pointer-events: all; }
+    .gf__clear:hover { color: var(--gold); }
+
+    .gf__count {
+      margin-left: auto;
+      font-size: .72rem;
+      letter-spacing: .1em;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .gf-empty {
+      display: none;
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-muted);
+      font-size: .9rem;
+      background: none;
+    }
+    .gf-empty.is-visible { display: block; }
+
+    @media (max-width: 600px) {
+      .gf-bar { gap: .6rem; }
+      .gf__count { width: 100%; margin-left: 0; }
+    }
   </style>
 </head>
 <body>
@@ -41,7 +186,7 @@
       <a href="index.html#journey" class="nav__link" data-i18n="nav.journey"></a>
       <a href="about.html" class="nav__link" data-i18n="nav.about"></a>
       <a href="contact.html" class="nav__link" data-i18n="nav.contact"></a>
-      <a href="gallery.html" class="nav__link" data-i18n="nav.gallery"></a>
+      <a href="gallery.html" class="nav__link nav__link--active" data-i18n="nav.gallery"></a>
       <div class="nav__dropdown nav__theme">
         <button class="nav__link nav__theme-trigger" type="button"><span data-i18n="theme.label">Theme</span> ▾</button>
         <ul class="nav__dropdown-menu">
@@ -76,35 +221,204 @@
 
   <section class="section">
     <div class="container">
-      <div class="archive-grid" data-reveal>
-        <figure><img src="images/luxury-grand-blue.jpeg" alt="Feurich luxury grand in blue" loading="lazy"><figcaption>Luxury Grand</figcaption></figure>
-        <figure><img src="images/self-playing-lifestyle.jpeg" alt="Feurich self-playing piano lifestyle" loading="lazy"><figcaption>Self-Playing Lifestyle</figcaption></figure>
-        <figure><img src="images/self-playing-studio.jpeg" alt="Feurich self-playing piano studio" loading="lazy"><figcaption>Self-Playing Studio</figcaption></figure>
-        <figure><img src="images/self-playing-sunburst.jpeg" alt="Feurich self-playing piano sunburst" loading="lazy"><figcaption>Self-Playing Sunburst</figcaption></figure>
-        <figure><img src="images/self-playing-walnut.jpeg" alt="Feurich self-playing piano walnut" loading="lazy"><figcaption>Self-Playing Walnut</figcaption></figure>
-        <figure><img src="images/bespoke-lacquer.jpeg" alt="Feurich bespoke lacquer finish" loading="lazy"><figcaption>Bespoke Lacquer</figcaption></figure>
-        <figure><img src="images/crystal-inlay.jpeg" alt="Feurich crystal inlay detail" loading="lazy"><figcaption>Crystal Inlay</figcaption></figure>
-        <figure><img src="images/custom-grand-mosaic.jpeg" alt="Feurich custom grand with mosaic" loading="lazy"><figcaption>Custom Grand Mosaic</figcaption></figure>
-        <figure><img src="images/custom-led-upright.jpeg" alt="Feurich custom LED upright" loading="lazy"><figcaption>Custom LED Upright</figcaption></figure>
-        <figure><img src="images/custom-mosaic-upright.jpeg" alt="Feurich custom mosaic upright" loading="lazy"><figcaption>Custom Mosaic Upright</figcaption></figure>
-        <figure><img src="images/gold-leaf.jpeg" alt="Feurich gold leaf finish" loading="lazy"><figcaption>Gold Leaf</figcaption></figure>
-        <figure><img src="unused-images/piano-01.jpeg" alt="Feurich piano 01" loading="lazy"><figcaption>piano-01</figcaption></figure>
-        <figure><img src="unused-images/piano-02.jpeg" alt="Feurich piano 02" loading="lazy"><figcaption>piano-02</figcaption></figure>
-        <figure><img src="unused-images/piano-03.jpeg" alt="Feurich piano 03" loading="lazy"><figcaption>piano-03</figcaption></figure>
-        <figure><img src="unused-images/piano-04.jpeg" alt="Feurich piano 04" loading="lazy"><figcaption>piano-04</figcaption></figure>
-        <figure><img src="unused-images/piano-05.jpeg" alt="Feurich piano 05" loading="lazy"><figcaption>piano-05</figcaption></figure>
-        <figure><img src="unused-images/piano-06.jpeg" alt="Feurich piano 06" loading="lazy"><figcaption>piano-06</figcaption></figure>
-        <figure><img src="unused-images/piano-07.jpeg" alt="Feurich piano 07" loading="lazy"><figcaption>piano-07</figcaption></figure>
-        <figure><img src="unused-images/piano-08.jpeg" alt="Feurich piano 08" loading="lazy"><figcaption>piano-08</figcaption></figure>
-        <figure><img src="unused-images/piano-09.jpeg" alt="Feurich piano 09" loading="lazy"><figcaption>piano-09</figcaption></figure>
-        <figure><img src="unused-images/piano-10.jpeg" alt="Feurich piano 10" loading="lazy"><figcaption>piano-10</figcaption></figure>
-        <figure><img src="unused-images/piano-11.jpeg" alt="Feurich piano 11" loading="lazy"><figcaption>piano-11</figcaption></figure>
-        <figure><img src="unused-images/piano-12.jpeg" alt="Feurich piano 12" loading="lazy"><figcaption>piano-12</figcaption></figure>
-        <figure><img src="unused-images/piano-13.jpeg" alt="Feurich piano 13" loading="lazy"><figcaption>piano-13</figcaption></figure>
-        <figure><img src="unused-images/piano-14.jpeg" alt="Feurich piano 14" loading="lazy"><figcaption>piano-14</figcaption></figure>
-        <figure><img src="unused-images/piano-15.jpeg" alt="Feurich piano 15" loading="lazy"><figcaption>piano-15</figcaption></figure>
-        <figure><img src="unused-images/piano-16.jpeg" alt="Feurich piano 16" loading="lazy"><figcaption>piano-16</figcaption></figure>
+
+      <!-- Filter bar -->
+      <div class="gf-bar" id="gf-bar">
+        <span class="gf-bar__label">Filter</span>
+
+        <!-- Collection -->
+        <div class="gf" data-gf="type">
+          <button class="gf__trigger" aria-haspopup="listbox" aria-expanded="false">
+            Collection<span class="gf__active-val"></span><span class="gf__caret">▾</span>
+          </button>
+          <ul class="gf__menu" role="listbox">
+            <li><button data-val="" class="is-selected">All</button></li>
+            <li><button data-val="luxury">Luxury Editions</button></li>
+            <li><button data-val="self-playing">Self-Playing</button></li>
+            <li><button data-val="grands">Grands &amp; Uprights</button></li>
+            <li><button data-val="custom">Custom Design</button></li>
+          </ul>
+        </div>
+
+        <!-- Finish -->
+        <div class="gf" data-gf="finish">
+          <button class="gf__trigger" aria-haspopup="listbox" aria-expanded="false">
+            Finish<span class="gf__active-val"></span><span class="gf__caret">▾</span>
+          </button>
+          <ul class="gf__menu" role="listbox">
+            <li><button data-val="" class="is-selected">All</button></li>
+            <li><button data-val="standard">Standard</button></li>
+            <li><button data-val="lacquer">Lacquer</button></li>
+            <li><button data-val="walnut">Walnut</button></li>
+            <li><button data-val="crystal">Crystal Inlay</button></li>
+            <li><button data-val="mosaic">Mosaic</button></li>
+            <li><button data-val="gold">Gold Leaf</button></li>
+            <li><button data-val="led">LED / Special</button></li>
+          </ul>
+        </div>
+
+        <!-- Setting -->
+        <div class="gf" data-gf="setting">
+          <button class="gf__trigger" aria-haspopup="listbox" aria-expanded="false">
+            Setting<span class="gf__active-val"></span><span class="gf__caret">▾</span>
+          </button>
+          <ul class="gf__menu" role="listbox">
+            <li><button data-val="" class="is-selected">All</button></li>
+            <li><button data-val="lifestyle">Lifestyle</button></li>
+            <li><button data-val="studio">Studio</button></li>
+            <li><button data-val="detail">Detail</button></li>
+          </ul>
+        </div>
+
+        <button class="gf__clear" id="gf-clear">✕ Clear filters</button>
+        <span class="gf__count" id="gf-count"></span>
       </div>
+
+      <!-- Gallery grid -->
+      <!--
+        data-type    : luxury | self-playing | grands | custom   (space-sep for multi)
+        data-finish  : standard | lacquer | walnut | crystal | mosaic | gold | led
+        data-setting : lifestyle | studio | detail
+      -->
+      <div class="archive-grid" id="archive-grid">
+        <div class="gf-empty" id="gf-empty">No images match the selected filters.</div>
+
+        <figure data-type="luxury grands" data-finish="standard" data-setting="lifestyle">
+          <img src="images/luxury-grand-blue.jpeg" alt="Feurich luxury grand in blue" loading="lazy">
+          <figcaption>Luxury Grand</figcaption>
+        </figure>
+
+        <figure data-type="self-playing" data-finish="standard" data-setting="lifestyle">
+          <img src="images/self-playing-lifestyle.jpeg" alt="Feurich self-playing piano lifestyle" loading="lazy">
+          <figcaption>Self-Playing · Lifestyle</figcaption>
+        </figure>
+
+        <figure data-type="self-playing" data-finish="standard" data-setting="studio">
+          <img src="images/self-playing-studio.jpeg" alt="Feurich self-playing piano studio" loading="lazy">
+          <figcaption>Self-Playing · Studio</figcaption>
+        </figure>
+
+        <figure data-type="self-playing" data-finish="standard" data-setting="studio">
+          <img src="images/self-playing-sunburst.jpeg" alt="Feurich self-playing piano sunburst" loading="lazy">
+          <figcaption>Self-Playing · Sunburst</figcaption>
+        </figure>
+
+        <figure data-type="self-playing grands" data-finish="walnut" data-setting="studio">
+          <img src="images/self-playing-walnut.jpeg" alt="Feurich self-playing piano walnut" loading="lazy">
+          <figcaption>Self-Playing · Walnut</figcaption>
+        </figure>
+
+        <figure data-type="custom" data-finish="lacquer" data-setting="lifestyle">
+          <img src="images/bespoke-lacquer.jpeg" alt="Feurich bespoke lacquer finish" loading="lazy">
+          <figcaption>Bespoke Lacquer</figcaption>
+        </figure>
+
+        <figure data-type="luxury custom" data-finish="crystal" data-setting="detail">
+          <img src="images/crystal-inlay.jpeg" alt="Feurich crystal inlay detail" loading="lazy">
+          <figcaption>Crystal Inlay · Detail</figcaption>
+        </figure>
+
+        <figure data-type="custom grands" data-finish="mosaic" data-setting="lifestyle">
+          <img src="images/custom-grand-mosaic.jpeg" alt="Feurich custom grand with mosaic" loading="lazy">
+          <figcaption>Custom Grand · Mosaic</figcaption>
+        </figure>
+
+        <figure data-type="custom" data-finish="led" data-setting="studio">
+          <img src="images/custom-led-upright.jpeg" alt="Feurich custom LED upright" loading="lazy">
+          <figcaption>Custom LED Upright</figcaption>
+        </figure>
+
+        <figure data-type="custom" data-finish="mosaic" data-setting="lifestyle">
+          <img src="images/custom-mosaic-upright.jpeg" alt="Feurich custom mosaic upright" loading="lazy">
+          <figcaption>Custom Mosaic · Upright</figcaption>
+        </figure>
+
+        <figure data-type="luxury custom" data-finish="gold" data-setting="detail">
+          <img src="images/gold-leaf.jpeg" alt="Feurich gold leaf finish" loading="lazy">
+          <figcaption>Gold Leaf · Detail</figcaption>
+        </figure>
+
+        <figure data-type="grands" data-finish="standard" data-setting="lifestyle">
+          <img src="unused-images/piano-01.jpeg" alt="Feurich grand piano interior" loading="lazy">
+          <figcaption>Grand · Interior</figcaption>
+        </figure>
+
+        <figure data-type="self-playing" data-finish="standard" data-setting="lifestyle">
+          <img src="unused-images/piano-02.jpeg" alt="Feurich self-playing piano" loading="lazy">
+          <figcaption>Self-Playing · Lifestyle</figcaption>
+        </figure>
+
+        <figure data-type="grands" data-finish="standard" data-setting="studio">
+          <img src="unused-images/piano-03.jpeg" alt="Feurich upright piano" loading="lazy">
+          <figcaption>Upright · Studio</figcaption>
+        </figure>
+
+        <figure data-type="luxury" data-finish="standard" data-setting="lifestyle">
+          <img src="unused-images/piano-04.jpeg" alt="Feurich luxury piano" loading="lazy">
+          <figcaption>Luxury · Lifestyle</figcaption>
+        </figure>
+
+        <figure data-type="custom" data-finish="mosaic" data-setting="studio">
+          <img src="unused-images/piano-05.jpeg" alt="Feurich custom mosaic piano" loading="lazy">
+          <figcaption>Custom · Mosaic</figcaption>
+        </figure>
+
+        <figure data-type="grands" data-finish="standard" data-setting="studio">
+          <img src="unused-images/piano-06.jpeg" alt="Feurich grand piano studio" loading="lazy">
+          <figcaption>Grand · Studio</figcaption>
+        </figure>
+
+        <figure data-type="self-playing" data-finish="standard" data-setting="detail">
+          <img src="unused-images/piano-07.jpeg" alt="Feurich self-playing detail" loading="lazy">
+          <figcaption>Self-Playing · Detail</figcaption>
+        </figure>
+
+        <figure data-type="luxury" data-finish="gold" data-setting="detail">
+          <img src="unused-images/piano-08.jpeg" alt="Feurich gold leaf detail" loading="lazy">
+          <figcaption>Gold Leaf · Detail</figcaption>
+        </figure>
+
+        <figure data-type="luxury custom" data-finish="crystal" data-setting="lifestyle">
+          <img src="unused-images/piano-09.jpeg" alt="Feurich crystal inlay lifestyle" loading="lazy">
+          <figcaption>Crystal Inlay · Lifestyle</figcaption>
+        </figure>
+
+        <figure data-type="grands" data-finish="walnut" data-setting="studio">
+          <img src="unused-images/piano-10.jpeg" alt="Feurich grand walnut studio" loading="lazy">
+          <figcaption>Grand · Walnut</figcaption>
+        </figure>
+
+        <figure data-type="custom" data-finish="lacquer" data-setting="lifestyle">
+          <img src="unused-images/piano-11.jpeg" alt="Feurich bespoke lacquer lifestyle" loading="lazy">
+          <figcaption>Lacquer · Lifestyle</figcaption>
+        </figure>
+
+        <figure data-type="self-playing" data-finish="standard" data-setting="studio">
+          <img src="unused-images/piano-12.jpeg" alt="Feurich self-playing studio" loading="lazy">
+          <figcaption>Self-Playing · Studio</figcaption>
+        </figure>
+
+        <figure data-type="luxury" data-finish="gold" data-setting="detail">
+          <img src="unused-images/piano-13.jpeg" alt="Feurich gold luxury detail" loading="lazy">
+          <figcaption>Luxury · Gold Detail</figcaption>
+        </figure>
+
+        <figure data-type="grands" data-finish="standard" data-setting="lifestyle">
+          <img src="unused-images/piano-14.jpeg" alt="Feurich grand piano lifestyle" loading="lazy">
+          <figcaption>Grand · Lifestyle</figcaption>
+        </figure>
+
+        <figure data-type="custom" data-finish="led" data-setting="studio">
+          <img src="unused-images/piano-15.jpeg" alt="Feurich custom LED piano" loading="lazy">
+          <figcaption>Custom · LED</figcaption>
+        </figure>
+
+        <figure data-type="luxury" data-finish="standard" data-setting="lifestyle">
+          <img src="unused-images/piano-16.jpeg" alt="Feurich luxury lifestyle" loading="lazy">
+          <figcaption>Luxury · Lifestyle</figcaption>
+        </figure>
+      </div>
+
     </div>
   </section>
 
@@ -123,5 +437,110 @@
   <script src="js/main.js"></script>
   <script src="js/theme.js"></script>
   <script src="js/lightbox.js"></script>
+  <script>
+  (function () {
+    var activeFilters = { type: '', finish: '', setting: '' };
+    var total = document.querySelectorAll('#archive-grid figure').length;
+
+    function applyFilters() {
+      var figures = document.querySelectorAll('#archive-grid figure');
+      var visible = 0;
+      figures.forEach(function (fig) {
+        var show = Object.keys(activeFilters).every(function (dim) {
+          var val = activeFilters[dim];
+          if (!val) return true;
+          var figVal = (fig.dataset[dim] || '').split(' ');
+          return figVal.indexOf(val) !== -1;
+        });
+        fig.classList.toggle('is-hidden', !show);
+        if (show) visible++;
+      });
+
+      var count = document.getElementById('gf-count');
+      count.textContent = visible === total
+        ? total + ' images'
+        : visible + ' of ' + total + ' images';
+
+      var empty = document.getElementById('gf-empty');
+      empty.classList.toggle('is-visible', visible === 0);
+
+      var clearBtn = document.getElementById('gf-clear');
+      var anyActive = Object.values(activeFilters).some(Boolean);
+      clearBtn.classList.toggle('is-visible', anyActive);
+    }
+
+    // Dropdown toggle
+    document.getElementById('gf-bar').addEventListener('click', function (e) {
+      var trigger = e.target.closest('.gf__trigger');
+      var optionBtn = e.target.closest('.gf__menu button');
+
+      if (trigger) {
+        var gf = trigger.closest('.gf');
+        var wasOpen = gf.classList.contains('is-open');
+        // Close all
+        document.querySelectorAll('.gf').forEach(function (g) {
+          g.classList.remove('is-open');
+          g.querySelector('.gf__trigger').setAttribute('aria-expanded', 'false');
+        });
+        if (!wasOpen) {
+          gf.classList.add('is-open');
+          trigger.setAttribute('aria-expanded', 'true');
+        }
+        return;
+      }
+
+      if (optionBtn) {
+        var gf = optionBtn.closest('.gf');
+        var dim = gf.dataset.gf;
+        var val = optionBtn.dataset.val;
+
+        // Update selection
+        gf.querySelectorAll('.gf__menu button').forEach(function (b) {
+          b.classList.remove('is-selected');
+        });
+        optionBtn.classList.add('is-selected');
+
+        // Update trigger label
+        var activeSpan = gf.querySelector('.gf__active-val');
+        activeSpan.textContent = val ? ' · ' + optionBtn.textContent : '';
+        gf.querySelector('.gf__trigger').classList.toggle('is-active', !!val);
+
+        activeFilters[dim] = val;
+        applyFilters();
+
+        // Close dropdown
+        gf.classList.remove('is-open');
+        gf.querySelector('.gf__trigger').setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Clear all
+    document.getElementById('gf-clear').addEventListener('click', function () {
+      Object.keys(activeFilters).forEach(function (k) { activeFilters[k] = ''; });
+      document.querySelectorAll('.gf').forEach(function (gf) {
+        gf.querySelectorAll('.gf__menu button').forEach(function (b) {
+          b.classList.remove('is-selected');
+        });
+        gf.querySelector('.gf__menu button[data-val=""]').classList.add('is-selected');
+        gf.querySelector('.gf__active-val').textContent = '';
+        gf.querySelector('.gf__trigger').classList.remove('is-active');
+      });
+      applyFilters();
+    });
+
+    // Close on outside click
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest('.gf')) {
+        document.querySelectorAll('.gf').forEach(function (g) {
+          g.classList.remove('is-open');
+          g.querySelector('.gf__trigger').setAttribute('aria-expanded', 'false');
+        });
+      }
+    });
+
+    // Init count
+    applyFilters();
+  })();
+  </script>
 </body>
 </html>
