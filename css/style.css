@@ -197,15 +197,16 @@ p { color: var(--text-muted); font-size: .97rem; }
   letter-spacing: .15em;
   color: var(--text);
   text-transform: uppercase;
-  line-height: 1;
+  line-height: 1.05;
 }
 .nav__logo span {
   display: block;
   font-family: var(--sans);
-  font-size: .55rem;
-  letter-spacing: .35em;
+  font-size: .5rem;
+  letter-spacing: .18em;
+  line-height: 1.5;
   color: var(--gold);
-  margin-top: .2rem;
+  margin-top: .35rem;
 }
 
 .nav__menu {

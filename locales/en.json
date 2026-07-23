@@ -18,14 +18,14 @@
   "hero": {
     "eyebrow": "Vienna Craftsmanship · Iberian Passion",
     "title": "Where Music\nMeets Mastery",
-    "subtitle": "Exclusive Feurich Piano representative for Spain and Portugal",
+    "subtitle": "Concert pianist and independent piano consultant for Spain and Portugal",
     "cta": "Discover the Collection",
     "secondary": "Book a Private Consultation",
     "themes": {
       "noir": {
         "eyebrow": "Vienna Craftsmanship · Iberian Passion",
         "title": "Where Music\nMeets Mastery",
-        "subtitle": "Exclusive Feurich Piano representative for Spain and Portugal"
+        "subtitle": "Concert pianist and independent piano consultant for Spain and Portugal"
       },
       "galeria": {
         "eyebrow": "Curated Excellence",
@@ -145,10 +145,10 @@
     "step6Desc": "Ongoing tuning, regulation and service — we are here for the full life of your instrument."
   },
   "about": {
-    "eyebrow": "About Feurich Iberia",
+    "eyebrow": "About Stuart Conaghan",
     "title": "Vienna's Finest,\nBrought to the Peninsula",
-    "text1": "We are the exclusive Feurich representative for Spain and Portugal, bringing Vienna's finest piano tradition to the Iberian Peninsula with the passion and personal service this extraordinary brand deserves.",
-    "text2": "As authorised dealers, we offer the complete Feurich portfolio — from intimate upright pianos to concert-hall grands, from curated standard finishes to fully bespoke luxury commissions — supported by a dedicated aftersales service team.",
+    "text1": "We are an independent piano consultancy serving Spain and Portugal, bringing Vienna's finest piano tradition to the Iberian Peninsula with the passion and personal service these extraordinary instruments deserve.",
+    "text2": "We guide you through the complete Feurich range — from intimate upright pianos to concert-hall grands, from curated standard finishes to fully bespoke luxury commissions — supported by a dedicated aftersales service team.",
     "cta": "Our Full Story"
   },
   "contactCta": {
@@ -159,7 +159,7 @@
   },
   "contact": {
     "eyebrow": "Get in Touch",
-    "title": "Contact Feurich Iberia",
+    "title": "Contact Stuart Conaghan",
     "subtitle": "We invite you to visit our showroom or arrange a private consultation at your convenience.",
     "namePlaceholder": "Full Name",
     "emailPlaceholder": "Email Address",
@@ -178,13 +178,13 @@
     "phoneLabel": "Telephone",
     "phoneVal": "+34 91 123 4567",
     "emailLabel": "Email",
-    "emailVal": "info@feurichiberia.com",
+    "emailVal": "info@stuartconaghan.com",
     "hoursLabel": "Opening Hours",
     "hoursVal": "Monday – Saturday, 10:00 – 19:00"
   },
   "footer": {
     "tagline": "Vienna Craftsmanship. Iberian Passion.",
-    "copyright": "© 2025 Feurich Iberia. All rights reserved.",
+    "copyright": "© 2025 Stuart Conaghan. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "feurich": "Feurich Official Website"
@@ -193,7 +193,7 @@
     "heroEyebrow": "Luxury Editions",
     "heroTitle": "Beyond the Instrument",
     "heroSubtitle": "Where the piano becomes art",
-    "intro": "For those for whom only the extraordinary will suffice, Feurich Iberia presents our Luxury Edition commissions — instruments created at the intersection of musical engineering and haute artisanship.",
+    "intro": "For those for whom only the extraordinary will suffice, we present a portfolio of Luxury Edition commissions — instruments created at the intersection of musical engineering and haute artisanship.",
     "crystalTitle": "Crystal Inlay",
     "crystalText": "Swarovski and bespoke crystal elements are hand-inlaid into the cabinet surfaces by master decorative artists, creating instruments that shimmer under light and captivate before a single note is played. Available on any Feurich model, in any crystal specification.",
     "goldTitle": "Gold Leaf",
@@ -261,7 +261,7 @@
   "gallery": {
     "eyebrow": "Archive",
     "title": "Image Gallery",
-    "subtitle": "The complete Feurich Iberia photography collection."
+    "subtitle": "The complete piano photography collection."
   },
   "theme": {
     "label": "Theme",

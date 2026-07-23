@@ -18,14 +18,14 @@
   "hero": {
     "eyebrow": "Wiener Handwerkskunst · Iberische Leidenschaft",
     "title": "Wo Musik auf\nMeisterschaft trifft",
-    "subtitle": "Exklusiver Feurich-Vertreter für Spanien und Portugal",
+    "subtitle": "Konzertpianist und unabhängiger Klavierberater für Spanien und Portugal",
     "cta": "Kollektion entdecken",
     "secondary": "Private Beratung buchen",
     "themes": {
       "noir": {
         "eyebrow": "Wiener Handwerkskunst · Iberische Leidenschaft",
         "title": "Wo Musik auf\nMeisterschaft trifft",
-        "subtitle": "Exklusiver Feurich-Vertreter für Spanien und Portugal"
+        "subtitle": "Konzertpianist und unabhängiger Klavierberater für Spanien und Portugal"
       },
       "galeria": {
         "eyebrow": "Kuratierte Exzellenz",
@@ -145,10 +145,10 @@
     "step6Desc": "Laufende Stimmung, Regulierung und Service — wir sind während der gesamten Lebensdauer Ihres Instruments für Sie da."
   },
   "about": {
-    "eyebrow": "Über Feurich Iberia",
+    "eyebrow": "Über Stuart Conaghan",
     "title": "Wiens Bestes,\nauf die Halbinsel gebracht",
-    "text1": "Wir sind der exklusive Feurich-Vertreter für Spanien und Portugal und bringen Wiens feinste Klaviertradition mit der Leidenschaft und dem persönlichen Service auf die Iberische Halbinsel, die diese außergewöhnliche Marke verdient.",
-    "text2": "Als autorisierte Händler bieten wir das gesamte Feurich-Portfolio an — von intimen Klavieren bis hin zu Konzertflügeln, von Standardausführungen bis zu vollständig individuellen Luxusaufträgen — unterstützt von einem engagierten Kundendienst-Team.",
+    "text1": "Wir sind eine unabhängige Klavierberatung für Spanien und Portugal und bringen Wiens feinste Klaviertradition mit der Leidenschaft und dem persönlichen Service auf die Iberische Halbinsel, die diese außergewöhnlichen Instrumente verdienen.",
+    "text2": "Wir begleiten Sie durch das gesamte Feurich-Portfolio — von intimen Klavieren bis hin zu Konzertflügeln, von Standardausführungen bis zu vollständig individuellen Luxusaufträgen — unterstützt von einem engagierten Kundendienst-Team.",
     "cta": "Unsere Geschichte"
   },
   "contactCta": {
@@ -159,7 +159,7 @@
   },
   "contact": {
     "eyebrow": "Kontakt",
-    "title": "Feurich Iberia kontaktieren",
+    "title": "Stuart Conaghan kontaktieren",
     "subtitle": "Wir laden Sie ein, unseren Showroom zu besuchen oder eine private Beratung zu vereinbaren.",
     "namePlaceholder": "Vollständiger Name",
     "emailPlaceholder": "E-Mail-Adresse",
@@ -178,13 +178,13 @@
     "phoneLabel": "Telefon",
     "phoneVal": "+34 91 123 4567",
     "emailLabel": "E-Mail",
-    "emailVal": "info@feurichiberia.com",
+    "emailVal": "info@stuartconaghan.com",
     "hoursLabel": "Öffnungszeiten",
     "hoursVal": "Montag – Samstag, 10:00 – 19:00 Uhr"
   },
   "footer": {
     "tagline": "Wiener Handwerkskunst. Iberische Leidenschaft.",
-    "copyright": "© 2025 Feurich Iberia. Alle Rechte vorbehalten.",
+    "copyright": "© 2025 Stuart Conaghan. Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "feurich": "Offizielle Feurich-Website"
@@ -193,7 +193,7 @@
     "heroEyebrow": "Luxus-Editionen",
     "heroTitle": "Jenseits des Instruments",
     "heroSubtitle": "Wo das Klavier zur Kunst wird",
-    "intro": "Für diejenigen, für die nur das Außergewöhnliche in Frage kommt, präsentiert Feurich Iberia unsere Luxus-Edition-Aufträge — Instrumente, die an der Schnittstelle von Musiktechnik und höchster Handwerkskunst entstehen.",
+    "intro": "Für diejenigen, für die nur das Außergewöhnliche in Frage kommt, präsentieren wir eine Auswahl an Luxus-Edition-Aufträgen — Instrumente, die an der Schnittstelle von Musiktechnik und höchster Handwerkskunst entstehen.",
     "crystalTitle": "Kristall-Intarsien",
     "crystalText": "Swarovski- und maßgefertigte Kristallelemente werden von Meisterkünstlern von Hand in die Gehäuseoberflächen eingelegt und schaffen Instrumente, die im Licht schimmern und fesseln, bevor eine einzige Note gespielt wird.",
     "goldTitle": "Blattgold",
@@ -261,7 +261,7 @@
   "gallery": {
     "eyebrow": "Archiv",
     "title": "Bildergalerie",
-    "subtitle": "Die vollständige Fotosammlung von Feurich Iberia."
+    "subtitle": "Die vollständige Fotosammlung."
   },
   "theme": {
     "label": "Thema",

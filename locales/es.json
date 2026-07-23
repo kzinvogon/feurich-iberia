@@ -18,14 +18,14 @@
   "hero": {
     "eyebrow": "Artesanía Vienesa · Pasión Ibérica",
     "title": "Donde la Música\nEncuentra la Maestría",
-    "subtitle": "Representante exclusivo de Feurich para España y Portugal",
+    "subtitle": "Pianista de concierto y consultor de pianos independiente para España y Portugal",
     "cta": "Descubra la Colección",
     "secondary": "Reservar una Consulta Privada",
     "themes": {
       "noir": {
         "eyebrow": "Artesanía Vienesa · Pasión Ibérica",
         "title": "Donde la Música\nEncuentra la Maestría",
-        "subtitle": "Representante exclusivo de Feurich para España y Portugal"
+        "subtitle": "Pianista de concierto y consultor de pianos independiente para España y Portugal"
       },
       "galeria": {
         "eyebrow": "Excelencia Curada",
@@ -145,10 +145,10 @@
     "step6Desc": "Afinación, regulación y servicio continuo — estamos aquí durante toda la vida de su instrumento."
   },
   "about": {
-    "eyebrow": "Sobre Feurich Iberia",
+    "eyebrow": "Sobre Stuart Conaghan",
     "title": "Lo Mejor de Viena,\nTraído a la Península",
-    "text1": "Somos el representante exclusivo de Feurich para España y Portugal, acercando la más fina tradición pianística vienesa a la Península Ibérica con la pasión y el servicio personal que esta extraordinaria marca merece.",
-    "text2": "Como distribuidores autorizados, ofrecemos toda la gama Feurich — desde pianos verticales íntimos hasta grandes de sala de conciertos, desde acabados estándar hasta encargos de lujo totalmente personalizados — respaldados por un equipo de posventa dedicado.",
+    "text1": "Somos una consultoría de pianos independiente al servicio de España y Portugal, acercando la más fina tradición pianística vienesa a la Península Ibérica con la pasión y el servicio personal que estos extraordinarios instrumentos merecen.",
+    "text2": "Le guiamos a través de toda la gama Feurich — desde pianos verticales íntimos hasta grandes de sala de conciertos, desde acabados estándar hasta encargos de lujo totalmente personalizados — respaldados por un equipo de posventa dedicado.",
     "cta": "Nuestra Historia Completa"
   },
   "contactCta": {
@@ -159,7 +159,7 @@
   },
   "contact": {
     "eyebrow": "Póngase en Contacto",
-    "title": "Contacte con Feurich Iberia",
+    "title": "Contacte con Stuart Conaghan",
     "subtitle": "Le invitamos a visitar nuestro showroom o concertar una consulta privada a su conveniencia.",
     "namePlaceholder": "Nombre Completo",
     "emailPlaceholder": "Dirección de Email",
@@ -178,13 +178,13 @@
     "phoneLabel": "Teléfono",
     "phoneVal": "+34 91 123 4567",
     "emailLabel": "Email",
-    "emailVal": "info@feurichiberia.com",
+    "emailVal": "info@stuartconaghan.com",
     "hoursLabel": "Horario",
     "hoursVal": "Lunes – Sábado, 10:00 – 19:00"
   },
   "footer": {
     "tagline": "Artesanía Vienesa. Pasión Ibérica.",
-    "copyright": "© 2025 Feurich Iberia. Todos los derechos reservados.",
+    "copyright": "© 2025 Stuart Conaghan. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Uso",
     "feurich": "Sitio Oficial de Feurich"
@@ -193,7 +193,7 @@
     "heroEyebrow": "Ediciones de Lujo",
     "heroTitle": "Más Allá del Instrumento",
     "heroSubtitle": "Donde el piano se convierte en arte",
-    "intro": "Para quienes solo lo extraordinario es suficiente, Feurich Iberia presenta nuestros encargos de Edición de Lujo — instrumentos creados en la intersección de la ingeniería musical y la artesanía de alto nivel.",
+    "intro": "Para quienes solo lo extraordinario es suficiente, presentamos una selección de encargos de Edición de Lujo — instrumentos creados en la intersección de la ingeniería musical y la artesanía de alto nivel.",
     "crystalTitle": "Incrustación de Cristal",
     "crystalText": "Los elementos de cristal Swarovski y personalizados se incrustan a mano en las superficies del gabinete por maestros artistas decorativos, creando instrumentos que brillan bajo la luz y cautivan antes de que se toque una sola nota.",
     "goldTitle": "Pan de Oro",
@@ -261,7 +261,7 @@
   "gallery": {
     "eyebrow": "Archivo",
     "title": "Galería de Imágenes",
-    "subtitle": "La colección fotográfica completa de Feurich Iberia."
+    "subtitle": "La colección fotográfica completa."
   },
   "theme": {
     "label": "Tema",

@@ -18,14 +18,14 @@
   "hero": {
     "eyebrow": "Savoir-Faire Viennois · Passion Ibérique",
     "title": "Là où la Musique\nRencontre la Maîtrise",
-    "subtitle": "Représentant exclusif Feurich pour l'Espagne et le Portugal",
+    "subtitle": "Pianiste de concert et consultant piano indépendant pour l'Espagne et le Portugal",
     "cta": "Découvrir la Collection",
     "secondary": "Réserver une Consultation Privée",
     "themes": {
       "noir": {
         "eyebrow": "Savoir-Faire Viennois · Passion Ibérique",
         "title": "Là où la Musique\nRencontre la Maîtrise",
-        "subtitle": "Représentant exclusif Feurich pour l'Espagne et le Portugal"
+        "subtitle": "Pianiste de concert et consultant piano indépendant pour l'Espagne et le Portugal"
       },
       "galeria": {
         "eyebrow": "Excellence Curatée",
@@ -145,10 +145,10 @@
     "step6Desc": "Accord, régulation et service continus — nous sommes là pour toute la durée de vie de votre instrument."
   },
   "about": {
-    "eyebrow": "À Propos de Feurich Iberia",
+    "eyebrow": "À Propos de Stuart Conaghan",
     "title": "Le Meilleur de Vienne,\nApporté à la Péninsule",
-    "text1": "Nous sommes le représentant exclusif de Feurich pour l'Espagne et le Portugal, apportant la plus fine tradition pianistique viennoise à la Péninsule Ibérique avec la passion et le service personnel que cette extraordinaire marque mérite.",
-    "text2": "En tant que revendeurs autorisés, nous proposons l'ensemble du portfolio Feurich — des pianos droits intimes aux grands à queue de salle de concert, des finitions standard aux commissions de luxe entièrement sur mesure.",
+    "text1": "Nous sommes un cabinet de conseil en pianos indépendant au service de l'Espagne et du Portugal, apportant la plus fine tradition pianistique viennoise à la Péninsule Ibérique avec la passion et le service personnel que ces instruments extraordinaires méritent.",
+    "text2": "Nous vous guidons à travers l'ensemble du portfolio Feurich — des pianos droits intimes aux grands à queue de salle de concert, des finitions standard aux commissions de luxe entièrement sur mesure.",
     "cta": "Notre Histoire Complète"
   },
   "contactCta": {
@@ -159,7 +159,7 @@
   },
   "contact": {
     "eyebrow": "Prendre Contact",
-    "title": "Contacter Feurich Iberia",
+    "title": "Contacter Stuart Conaghan",
     "subtitle": "Nous vous invitons à visiter notre showroom ou à organiser une consultation privée à votre convenance.",
     "namePlaceholder": "Nom Complet",
     "emailPlaceholder": "Adresse Email",
@@ -178,13 +178,13 @@
     "phoneLabel": "Téléphone",
     "phoneVal": "+34 91 123 4567",
     "emailLabel": "Email",
-    "emailVal": "info@feurichiberia.com",
+    "emailVal": "info@stuartconaghan.com",
     "hoursLabel": "Horaires d'Ouverture",
     "hoursVal": "Lundi – Samedi, 10h00 – 19h00"
   },
   "footer": {
     "tagline": "Savoir-Faire Viennois. Passion Ibérique.",
-    "copyright": "© 2025 Feurich Iberia. Tous droits réservés.",
+    "copyright": "© 2025 Stuart Conaghan. Tous droits réservés.",
     "privacy": "Politique de Confidentialité",
     "terms": "Conditions d'Utilisation",
     "feurich": "Site Officiel Feurich"
@@ -193,7 +193,7 @@
     "heroEyebrow": "Éditions de Luxe",
     "heroTitle": "Au-delà de l'Instrument",
     "heroSubtitle": "Là où le piano devient art",
-    "intro": "Pour ceux pour qui seul l'extraordinaire suffira, Feurich Iberia présente nos commissions d'Édition de Luxe — des instruments créés à l'intersection de l'ingénierie musicale et de l'artisanat de haute gamme.",
+    "intro": "Pour ceux pour qui seul l'extraordinaire suffira, nous présentons une sélection de commissions d'Édition de Luxe — des instruments créés à l'intersection de l'ingénierie musicale et de l'artisanat de haute gamme.",
     "crystalTitle": "Incrustation de Cristal",
     "crystalText": "Les éléments en cristal Swarovski et sur mesure sont incrustés à la main dans les surfaces du cabinet par des maîtres artistes décorateurs, créant des instruments qui scintillent sous la lumière.",
     "goldTitle": "Feuille d'Or",
@@ -261,7 +261,7 @@
   "gallery": {
     "eyebrow": "Archives",
     "title": "Galerie d’Images",
-    "subtitle": "La collection photographique complète de Feurich Iberia."
+    "subtitle": "La collection photographique complète."
   },
   "theme": {
     "label": "Thème",
